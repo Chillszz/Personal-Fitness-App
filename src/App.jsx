@@ -62,7 +62,7 @@ export default function App() {
 
   return (
     <div className={theme === 'dark' ? 'dark' : ''}>
-      <div className="min-h-screen bg-gray-950 text-gray-100 flex flex-col max-w-md mx-auto relative">
+      <div className="h-screen bg-gray-950 text-gray-100 flex flex-col max-w-md mx-auto relative overflow-hidden">
         {showSettings ? (
           <Settings
             profile={profile}

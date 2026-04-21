@@ -80,6 +80,7 @@
     box-shadow: 0 0 20px rgba(83, 74, 183, 0.4);
   }
 
+  /* Hide scrollbars only on touch/mobile — show thin ones on desktop */
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -87,6 +88,27 @@
 
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
+  }
+
+  /* Thin styled scrollbar for main content on desktop */
+  @media (hover: hover) {
+    .scrollbar-thin {
+      scrollbar-width: thin;
+      scrollbar-color: #374151 transparent;
+    }
+
+    .scrollbar-thin::-webkit-scrollbar {
+      width: 4px;
+    }
+
+    .scrollbar-thin::-webkit-scrollbar-track {
+      background: transparent;
+    }
+
+    .scrollbar-thin::-webkit-scrollbar-thumb {
+      background: #374151;
+      border-radius: 999px;
+    }
   }
 }
 

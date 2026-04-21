@@ -105,7 +105,7 @@ export default function Dashboard({ profile, startDate, workoutSchedule, onOpenS
   const ringOffset = ringCircum - (ringCircum * ringPct) / 100
 
   return (
-    <div className="flex flex-col h-full overflow-y-auto scrollbar-hide bg-gray-950">
+    <div className="flex flex-col h-full overflow-y-auto scrollbar-thin scrollbar-hide bg-gray-950">
       {/* Header */}
       <div className="px-4 pt-14 pb-2 flex items-center justify-between">
         <div>

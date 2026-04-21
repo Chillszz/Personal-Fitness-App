@@ -36,7 +36,7 @@ export default function Settings({ profile, setProfile, theme, setTheme, onClose
   )
 
   return (
-    <div className="flex flex-col h-full overflow-y-auto scrollbar-hide bg-gray-950">
+    <div className="flex flex-col h-full overflow-y-auto scrollbar-thin scrollbar-hide bg-gray-950">
       <div className="px-4 pt-14 pb-4">
         {/* Header */}
         <div className="flex items-center justify-between mb-6">

@@ -17,7 +17,7 @@ const WORKOUT_NAMES = {
   lowerB: 'Lower B'
 }
 
-function getScheduleForDay(dayName, weekNum) {
+function getScheduleForDay(dayName, weekNum, workoutSchedule) {
   const workoutType = (workoutSchedule || {})[dayName]
   const isWorkoutDay = workoutType && workoutType !== 'rest'
   const meals = MEAL_PLAN[weekNum] || MEAL_PLAN[1]
@@ -116,13 +116,13 @@ export default function Schedule({ startDate, profile, workoutSchedule }) {
   const [selectedDay, setSelectedDay] = useState(new Date().toLocaleDateString('en-US', { weekday: 'long' }))
 
   const weekNum = getWeekNumber(startDate)
-  const schedule = getScheduleForDay(selectedDay, weekNum)
-  const workoutType = WORKOUT_SCHEDULE[selectedDay]
+  const schedule = getScheduleForDay(selectedDay, weekNum, workoutSchedule)
+  const workoutType = (workoutSchedule || {})[selectedDay]
   const isWorkoutDay = workoutType && workoutType !== 'rest'
   const todayName = new Date().toLocaleDateString('en-US', { weekday: 'long' })
 
   return (
-    <div className="flex flex-col h-full overflow-y-auto scrollbar-hide bg-gray-950">
+    <div className="flex flex-col h-full overflow-y-auto scrollbar-thin scrollbar-hide bg-gray-950">
       <div className="px-4 pt-14 pb-4">
         <h1 className="display-font text-3xl font-black text-white mb-4">SCHEDULE</h1>
 

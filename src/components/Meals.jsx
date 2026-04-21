@@ -154,13 +154,13 @@ function GroceryTab() {
 
   return (
     <div>
-      {/* Week selector */}
-      <div className="flex gap-2 mb-4 overflow-x-auto scrollbar-hide pb-1">
+      {/* Week selector — grid so all 8 are always visible */}
+      <div className="grid grid-cols-4 gap-2 mb-4">
         {[1,2,3,4,5,6,7,8].map(w => (
           <button
             key={w}
             onClick={() => setSelectedWeek(w)}
-            className={`shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-all ${
+            className={`py-2 rounded-xl text-sm font-semibold transition-all ${
               selectedWeek === w ? 'bg-purple-600 text-white' : 'bg-gray-900 text-gray-400 border border-gray-800'
             }`}
           >
@@ -234,7 +234,7 @@ export default function Meals({ startDate }) {
   const [activeTab, setActiveTab] = useState('plan')
 
   return (
-    <div className="flex flex-col h-full overflow-y-auto scrollbar-hide bg-gray-950">
+    <div className="flex flex-col h-full overflow-y-auto scrollbar-thin scrollbar-hide bg-gray-950">
       <div className="px-4 pt-14 pb-4">
         <h1 className="display-font text-3xl font-black text-white mb-4">MEALS</h1>
 

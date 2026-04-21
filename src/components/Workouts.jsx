@@ -329,7 +329,7 @@ export default function Workouts({ startDate, workoutSchedule }) {
     .map(([day, type]) => ({ day, workoutId: type }))
 
   return (
-    <div className="flex flex-col h-full overflow-y-auto scrollbar-hide bg-gray-950">
+    <div className="flex flex-col h-full overflow-y-auto scrollbar-thin scrollbar-hide bg-gray-950">
       <div className="px-4 pt-14 pb-4">
         <h1 className="display-font text-3xl font-black text-white mb-4">WORKOUTS</h1>
 
