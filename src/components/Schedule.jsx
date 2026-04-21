@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { MEAL_PLAN } from '../data/meals'
-import { WORKOUT_SCHEDULE, WORKOUTS } from '../data/workouts'
+import { WORKOUTS } from '../data/workouts'
 
 function getWeekNumber(startDate) {
   const start = new Date(startDate)
@@ -18,7 +18,7 @@ const WORKOUT_NAMES = {
 }
 
 function getScheduleForDay(dayName, weekNum) {
-  const workoutType = WORKOUT_SCHEDULE[dayName]
+  const workoutType = (workoutSchedule || {})[dayName]
   const isWorkoutDay = workoutType && workoutType !== 'rest'
   const meals = MEAL_PLAN[weekNum] || MEAL_PLAN[1]
   const isSatSun = dayName === 'Saturday' || dayName === 'Sunday'
@@ -50,7 +50,7 @@ function getScheduleForDay(dayName, weekNum) {
 
 const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
-function WeeklyGrid({ weekNum }) {
+function WeeklyGrid({ weekNum, workoutSchedule }) {
   const typeColors = {
     meal: 'bg-green-500/20 text-green-400',
     workout: 'bg-purple-500/20 text-purple-400',
@@ -64,7 +64,7 @@ function WeeklyGrid({ weekNum }) {
     <div className="overflow-x-auto scrollbar-hide">
       <div className="grid grid-cols-7 gap-1 min-w-max">
         {DAYS.map(day => {
-          const workoutType = WORKOUT_SCHEDULE[day]
+          const workoutType = (workoutSchedule || {})[day]
           const isWorkout = workoutType && workoutType !== 'rest'
           const shortDay = day.slice(0, 3)
           return (
@@ -111,7 +111,7 @@ function WeeklyGrid({ weekNum }) {
   )
 }
 
-export default function Schedule({ startDate, profile }) {
+export default function Schedule({ startDate, profile, workoutSchedule }) {
   const [view, setView] = useState('day')
   const [selectedDay, setSelectedDay] = useState(new Date().toLocaleDateString('en-US', { weekday: 'long' }))
 
@@ -147,7 +147,7 @@ export default function Schedule({ startDate, profile }) {
           {DAYS.map(day => {
             const isToday = day === todayName
             const isSelected = day === selectedDay
-            const wType = WORKOUT_SCHEDULE[day]
+            const wType = (workoutSchedule || {})[day]
             const isWD = wType && wType !== 'rest'
             return (
               <button
@@ -167,7 +167,7 @@ export default function Schedule({ startDate, profile }) {
         {view === 'week' && (
           <div className="card mb-4">
             <p className="display-font text-base font-bold text-gray-300 mb-3">WEEK {weekNum} OVERVIEW</p>
-            <WeeklyGrid weekNum={weekNum} />
+            <WeeklyGrid weekNum={weekNum} workoutSchedule={workoutSchedule} />
             <div className="mt-3 flex flex-wrap gap-2">
               {[
                 { emoji: '🍳🥗🍌🍽️', label: 'Meals' },

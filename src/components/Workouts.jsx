@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react'
 import { useLocalStorage } from '../hooks/useLocalStorage'
-import { WORKOUTS, WORKOUT_SCHEDULE } from '../data/workouts'
+import { WORKOUTS } from '../data/workouts'
 
 function getTodayKey() {
   return new Date().toISOString().split('T')[0]
@@ -314,21 +314,19 @@ function PersonalRecordsView() {
   )
 }
 
-export default function Workouts({ startDate }) {
+export default function Workouts({ startDate, workoutSchedule }) {
   const [view, setView] = useState('today')
   const [selectedWorkout, setSelectedWorkout] = useState(null)
 
   const dayName = getDayName()
-  const workoutType = WORKOUT_SCHEDULE[dayName]
+  const workoutType = (workoutSchedule || {})[dayName]
   const todayWorkout = workoutType && workoutType !== 'rest' ? WORKOUTS[workoutType] : null
   const today = getTodayKey()
 
-  const workoutDayMap = {
-    Monday: 'push',
-    Tuesday: 'lowerA',
-    Thursday: 'pull',
-    Friday: 'lowerB'
-  }
+  // Build library entries from the user's actual schedule
+  const scheduledDays = Object.entries(workoutSchedule || {})
+    .filter(([, type]) => type !== 'rest')
+    .map(([day, type]) => ({ day, workoutId: type }))
 
   return (
     <div className="flex flex-col h-full overflow-y-auto scrollbar-hide bg-gray-950">
@@ -386,13 +384,8 @@ export default function Workouts({ startDate }) {
             </div>
           ) : (
             <div className="space-y-3">
-              <p className="text-gray-500 text-sm mb-4">4-Day Upper/Lower Split — Mon/Tue/Thu/Fri</p>
-              {[
-                { day: 'Monday', workoutId: 'push' },
-                { day: 'Tuesday', workoutId: 'lowerA' },
-                { day: 'Thursday', workoutId: 'pull' },
-                { day: 'Friday', workoutId: 'lowerB' }
-              ].map(({ day, workoutId }) => {
+              <p className="text-gray-500 text-sm mb-4">{scheduledDays.length}-Day Split</p>
+              {scheduledDays.map(({ day, workoutId }) => {
                 const w = WORKOUTS[workoutId]
                 return (
                   <button

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { useLocalStorage } from '../hooks/useLocalStorage'
 import { MEAL_PLAN } from '../data/meals'
-import { WORKOUT_SCHEDULE, WORKOUTS } from '../data/workouts'
+import { WORKOUTS } from '../data/workouts'
 
 function getWeekNumber(startDate) {
   const start = new Date(startDate)
@@ -53,7 +53,7 @@ const WORKOUT_NAMES = {
   rest: 'Rest Day'
 }
 
-export default function Dashboard({ profile, startDate, onOpenSettings }) {
+export default function Dashboard({ profile, startDate, workoutSchedule, onOpenSettings }) {
   const [checklist, setChecklist] = useLocalStorage('fittrack_daily_checklist', {})
   const [weightLog] = useLocalStorage('fittrack_weight_log', [])
   const [currentWeek] = useState(() => getWeekNumber(startDate))
@@ -61,7 +61,7 @@ export default function Dashboard({ profile, startDate, onOpenSettings }) {
   const today = getTodayKey()
   const dayName = getDayName()
   const todayChecklist = checklist[today] || {}
-  const workoutType = WORKOUT_SCHEDULE[dayName] || 'rest'
+  const workoutType = (workoutSchedule || {})[dayName] || 'rest'
   const isWorkoutDay = workoutType !== 'rest'
   const currentMeals = MEAL_PLAN[currentWeek]
   const streak = getStreakCount(checklist)

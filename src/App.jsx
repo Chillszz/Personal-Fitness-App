@@ -9,7 +9,10 @@ import BottomNav from './components/BottomNav'
 import Settings from './components/Settings'
 import Onboarding from './components/Onboarding'
 
-const TABS = ['dashboard', 'meals', 'workouts', 'schedule', 'progress']
+const DEFAULT_WORKOUT_SCHEDULE = {
+  Monday: 'push', Tuesday: 'lowerA', Wednesday: 'rest',
+  Thursday: 'pull', Friday: 'lowerB', Saturday: 'rest', Sunday: 'rest'
+}
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('dashboard')
@@ -27,8 +30,13 @@ export default function App() {
     dailyCalories: 2650,
     proteinGoal: 200,
     workoutDays: ['Monday', 'Tuesday', 'Thursday', 'Friday'],
+    workoutFrequency: 4,
+    workoutSchedule: DEFAULT_WORKOUT_SCHEDULE,
     workoutTime: '6:30–8:00 PM'
   })
+
+  // Build effective schedule — use stored or fall back to default
+  const workoutSchedule = profile.workoutSchedule || DEFAULT_WORKOUT_SCHEDULE
 
   useEffect(() => {
     if (theme === 'dark') {
@@ -38,15 +46,15 @@ export default function App() {
     }
   }, [theme])
 
-  const handleOnboardingComplete = (startDateValue) => {
-    setStartDate(startDateValue)
-  }
-
   if (!startDate) {
     return (
       <div className={theme === 'dark' ? 'dark' : ''}>
         <div className="min-h-screen bg-gray-950 text-gray-100">
-          <Onboarding onComplete={handleOnboardingComplete} profile={profile} setProfile={setProfile} />
+          <Onboarding
+            onComplete={setStartDate}
+            profile={profile}
+            setProfile={setProfile}
+          />
         </div>
       </div>
     )
@@ -71,6 +79,7 @@ export default function App() {
                 <Dashboard
                   profile={profile}
                   startDate={startDate}
+                  workoutSchedule={workoutSchedule}
                   onOpenSettings={() => setShowSettings(true)}
                 />
               )}
@@ -78,10 +87,10 @@ export default function App() {
                 <Meals startDate={startDate} />
               )}
               {activeTab === 'workouts' && (
-                <Workouts startDate={startDate} />
+                <Workouts startDate={startDate} workoutSchedule={workoutSchedule} />
               )}
               {activeTab === 'schedule' && (
-                <Schedule startDate={startDate} profile={profile} />
+                <Schedule startDate={startDate} profile={profile} workoutSchedule={workoutSchedule} />
               )}
               {activeTab === 'progress' && (
                 <Progress profile={profile} startDate={startDate} />
