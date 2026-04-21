@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    @apply bg-gray-950 text-gray-100 overflow-x-hidden;
+    overscroll-behavior-y: contain;
+  }
+
+  .light body {
+    @apply bg-gray-50 text-gray-900;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* iOS safe area */
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .pt-safe {
+    padding-top: env(safe-area-inset-top);
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-gray-900 border border-gray-800 rounded-2xl p-4;
+  }
+
+  .card-dark {
+    @apply bg-gray-950 border border-gray-800 rounded-2xl p-4;
+  }
+
+  .btn-primary {
+    @apply bg-accent text-white font-semibold rounded-xl px-6 py-3 active:scale-95 transition-transform;
+    background: linear-gradient(135deg, #534AB7, #6B63C9);
+  }
+
+  .btn-ghost {
+    @apply border border-gray-700 text-gray-300 font-medium rounded-xl px-4 py-2 active:scale-95 transition-transform hover:border-accent;
+  }
+
+  .pill {
+    @apply px-3 py-1 rounded-full text-xs font-medium;
+  }
+
+  .display-font {
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+
+  .tab-content {
+    @apply flex-1 overflow-y-auto;
+    padding-bottom: 80px;
+  }
+}
+
+@layer utilities {
+  .text-accent {
+    color: #534AB7;
+  }
+
+  .bg-accent {
+    background-color: #534AB7;
+  }
+
+  .border-accent {
+    border-color: #534AB7;
+  }
+
+  .glow-accent {
+    box-shadow: 0 0 20px rgba(83, 74, 183, 0.4);
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+/* Smooth tab transitions */
+.tab-enter {
+  opacity: 0;
+  transform: translateY(8px);
+}
+
+.tab-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 200ms, transform 200ms;
+}
+
+/* Progress ring */
+.progress-ring-circle {
+  transition: stroke-dashoffset 0.5s ease;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+
+/* Pulse animation for active workout */
+@keyframes pulse-accent {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(83, 74, 183, 0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(83, 74, 183, 0); }
+}
+
+.pulse-accent {
+  animation: pulse-accent 2s infinite;
+}
+
+/* Shimmer for loading states */
+@keyframes shimmer {
+  0% { background-position: -200px 0; }
+  100% { background-position: calc(200px + 100%) 0; }
+}
+
+.shimmer {
+  background: linear-gradient(90deg, #1f2937 25%, #374151 37%, #1f2937 63%);
+  background-size: 400px 100%;
+  animation: shimmer 1.4s ease infinite;
+}
