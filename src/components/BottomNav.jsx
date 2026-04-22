@@ -51,7 +51,7 @@ const TABS = [
 
 export default function BottomNav({ activeTab, onTabChange }) {
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-gray-950 border-t border-gray-800 max-w-md mx-auto"
+    <nav className="w-full bg-gray-950 border-t border-gray-800 shrink-0"
          style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
       <div className="flex items-center justify-around h-16">
         {TABS.map(tab => {
