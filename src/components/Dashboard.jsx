@@ -140,17 +140,17 @@ export default function Dashboard({ profile, startDate, workoutSchedule, onOpenS
       </div>
 
       {/* Plan start banner */}
-      {!planStarted && (
-        <div className="px-4 mb-4">
-          <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-xl p-3 flex items-center gap-3">
-            <span className="text-2xl">📅</span>
-            <div>
-              <p className="text-yellow-300 text-sm font-semibold">Plan hasn't started yet</p>
-              <p className="text-yellow-400/70 text-xs">Kicks off {planStartFormatted}</p>
-            </div>
+      <div className="px-4 mb-4">
+        <div className={`border rounded-xl p-3 flex items-center gap-3 ${planStarted ? 'bg-purple-500/10 border-purple-500/30' : 'bg-yellow-500/10 border-yellow-500/30'}`}>
+          <span className="text-2xl">{planStarted ? '🚀' : '📅'}</span>
+          <div>
+            <p className={`text-sm font-semibold ${planStarted ? 'text-purple-300' : 'text-yellow-300'}`}>
+              {planStarted ? 'Plan started' : "Plan hasn't started yet"}
+            </p>
+            <p className={`text-xs ${planStarted ? 'text-purple-400/70' : 'text-yellow-400/70'}`}>{planStartFormatted}</p>
           </div>
         </div>
-      )}
+      </div>
 
       {/* Hero card */}
       <div className="px-4 mb-4">
