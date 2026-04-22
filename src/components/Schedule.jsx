@@ -128,8 +128,8 @@ export default function Schedule({ startDate, profile, workoutSchedule }) {
   const schedule = buildSchedule(selectedDay, weekNum, ws)
 
   return (
-    <div className="flex flex-col min-h-full overflow-y-auto scrollbar-thin bg-gray-950 pb-6">
-      <div className="px-4 pt-14">
+    <div className="h-full overflow-y-auto scrollbar-thin bg-gray-950">
+      <div className="px-4 pt-14 pb-24">
         <h1 className="display-font text-3xl font-black text-white mb-4">SCHEDULE</h1>
 
         {/* View toggle */}
