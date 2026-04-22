@@ -1,0 +1,2797 @@
+{
+  "meta": {
+    "title": "High Protein Recipe Database",
+    "version": "2.0",
+    "total_recipes": 100,
+    "categories": ["Breakfast", "Lunch", "Dinner", "Snack"]
+  },
+  "recipes": [
+    {
+      "id": 1,
+      "name": "BBQ Chicken & Rice Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 480, "protein_g": 41, "carbs_g": 52, "fat_g": 8 },
+      "ingredients": [
+        "2 lbs (900g) boneless skinless chicken breast",
+        "2 cups brown rice (dry)",
+        "1/2 cup low-sugar BBQ sauce",
+        "3 cups broccoli florets",
+        "1 tbsp olive oil",
+        "1 tsp garlic powder",
+        "1 tsp smoked paprika",
+        "Salt and black pepper to taste"
+      ],
+      "instructions": [
+        "Cook rice according to package instructions.",
+        "Preheat oven to 400F (205C). Line a baking sheet with foil.",
+        "Season chicken with garlic powder, paprika, salt, and pepper.",
+        "Toss broccoli with olive oil, salt, and pepper. Spread on baking sheet.",
+        "Place chicken on the same baking sheet. Bake 20-22 min until internal temp hits 165F.",
+        "Brush chicken with BBQ sauce in the last 5 min of baking.",
+        "Rest chicken 5 min then slice or shred.",
+        "Portion into 4 containers with rice and broccoli."
+      ],
+      "storage": "Fridge 4 days / Freezer 3 months"
+    },
+    {
+      "id": 2,
+      "name": "Ground Turkey Taco Bowls",
+      "category": "Lunch/Dinner",
+      "servings": 5,
+      "macros_per_serving": { "calories": 420, "protein_g": 38, "carbs_g": 44, "fat_g": 10 },
+      "ingredients": [
+        "2 lbs (900g) lean ground turkey 93/7",
+        "1.5 cups white rice (dry)",
+        "2 bags frozen cauliflower rice",
+        "1 can (15oz) black beans, drained and rinsed",
+        "1 cup frozen or canned corn",
+        "2 large bell peppers, sliced",
+        "1 medium onion, diced",
+        "3 tbsp taco seasoning",
+        "2 tsp avocado oil",
+        "1 cup jarred salsa"
+      ],
+      "instructions": [
+        "Cook white rice per package. Saute cauliflower rice 4-5 min until golden. Mix both together.",
+        "Heat 1 tsp oil in a large skillet, saute onion and peppers 5-7 min. Remove and set aside.",
+        "Add remaining oil, cook ground turkey 8 min breaking it apart until browned.",
+        "Add taco seasoning and a splash of water. Stir and cook 2 more min.",
+        "Assemble in 5 containers: rice blend, corn, black beans, turkey mix, peppers, and salsa.",
+        "Add fresh avocado when serving."
+      ],
+      "storage": "Fridge 4 days / Freezer 2 months"
+    },
+    {
+      "id": 3,
+      "name": "Protein Overnight Oats",
+      "category": "Breakfast",
+      "servings": 1,
+      "macros_per_serving": { "calories": 490, "protein_g": 38, "carbs_g": 54, "fat_g": 10 },
+      "ingredients": [
+        "1/2 cup (45g) rolled oats",
+        "1 scoop (30g) vanilla casein or whey protein powder",
+        "1/2 cup (113g) 0% Greek yogurt",
+        "1/2 cup milk",
+        "1 tbsp chia seeds",
+        "1/2 banana or 1/2 cup berries",
+        "1 tbsp peanut butter",
+        "1 tsp honey (optional)"
+      ],
+      "instructions": [
+        "Add oats, chia seeds, protein powder, and Greek yogurt to a mason jar.",
+        "Pour in milk and stir until protein powder is fully dissolved.",
+        "Add honey and mix again.",
+        "Seal and refrigerate overnight or at least 6 hours.",
+        "In the morning top with banana or berries and peanut butter.",
+        "Eat cold or microwave 60-90 seconds."
+      ],
+      "storage": "Fridge up to 4 days without toppings"
+    },
+    {
+      "id": 4,
+      "name": "Buffalo Chicken Breakfast Casserole",
+      "category": "Breakfast",
+      "servings": 6,
+      "macros_per_serving": { "calories": 310, "protein_g": 34, "carbs_g": 8, "fat_g": 16 },
+      "ingredients": [
+        "2 cups cooked shredded chicken breast (about 300g)",
+        "10 large eggs",
+        "1/4 cup Franks RedHot buffalo sauce",
+        "3 green onion stalks, chopped",
+        "1/2 cup shredded carrots",
+        "2 celery stalks, finely diced",
+        "1/2 tsp onion powder",
+        "1/2 tsp garlic powder",
+        "Salt and pepper to taste",
+        "Cooking spray"
+      ],
+      "instructions": [
+        "Preheat oven to 375F (190C). Spray a 9x13 baking dish.",
+        "Whisk eggs with buffalo sauce, onion powder, garlic powder, salt, and pepper.",
+        "Fold in chicken, carrots, celery, and green onions.",
+        "Pour into baking dish evenly.",
+        "Bake 32-35 min until center is set and top is lightly golden.",
+        "Cool 10 min then slice into 6 portions."
+      ],
+      "storage": "Fridge 4 days / Freezer 2 months"
+    },
+    {
+      "id": 5,
+      "name": "Salmon & Sweet Potato Bowl",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 520, "protein_g": 42, "carbs_g": 40, "fat_g": 18 },
+      "ingredients": [
+        "4 x 6oz salmon fillets",
+        "2 large sweet potatoes, cubed",
+        "4 cups baby spinach",
+        "3 tbsp olive oil, divided",
+        "1 lemon, juiced",
+        "3 garlic cloves, minced",
+        "2 tsp dried dill or Italian seasoning",
+        "1 cup cherry tomatoes, halved",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat oven to 425F (220C). Toss sweet potato cubes with 1.5 tbsp oil, salt, and pepper on a baking sheet.",
+        "Roast sweet potatoes 20 min flipping halfway through.",
+        "Pat salmon dry. Rub with remaining oil, garlic, dill, lemon juice, salt, and pepper.",
+        "Push potatoes aside, add salmon skin-side down. Roast together 12-15 min.",
+        "Saute spinach in a pan with a bit of oil until wilted about 2 min.",
+        "Build bowls: spinach base, sweet potatoes, salmon on top, cherry tomatoes on the side."
+      ],
+      "storage": "Fridge 3 days (salmon) / 4 days (veggies)"
+    },
+    {
+      "id": 6,
+      "name": "One-Pot White Chicken Chili",
+      "category": "Dinner",
+      "servings": 6,
+      "macros_per_serving": { "calories": 410, "protein_g": 44, "carbs_g": 32, "fat_g": 11 },
+      "ingredients": [
+        "2 lbs (900g) boneless skinless chicken breast",
+        "2 cans (15oz each) white beans, drained",
+        "1 cup frozen or canned corn",
+        "2 cans (4oz each) diced green chiles",
+        "3 cups low-sodium chicken broth",
+        "4oz light cream cheese",
+        "1 medium onion, diced",
+        "4 garlic cloves, minced",
+        "2 tsp cumin",
+        "1 tsp chili powder",
+        "1 tsp dried oregano",
+        "1 tbsp olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Heat oil in a Dutch oven over medium heat. Saute onion 4 min, add garlic 1 min.",
+        "Add whole chicken breasts, broth, green chiles, cumin, chili powder, and oregano.",
+        "Bring to boil, reduce to simmer, cover and cook 20-25 min.",
+        "Remove chicken and shred with two forks. Return to pot.",
+        "Add white beans and corn. Simmer uncovered 5-8 min.",
+        "Cube cream cheese and stir in until fully melted.",
+        "Adjust seasoning. Divide into 6 containers."
+      ],
+      "storage": "Fridge 5 days / Freezer 3 months"
+    },
+    {
+      "id": 7,
+      "name": "Pineapple Glazed Chicken Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 455, "protein_g": 45, "carbs_g": 48, "fat_g": 7 },
+      "ingredients": [
+        "2 lbs (900g) chicken breast, cut into chunks",
+        "1 can (20oz) pineapple chunks in juice, juice reserved",
+        "3 tbsp low-sodium soy sauce",
+        "2 tbsp honey",
+        "1 tbsp rice vinegar",
+        "3 garlic cloves, minced",
+        "1 tsp fresh ginger grated",
+        "1 tbsp cornstarch",
+        "2 cups brown rice (dry)",
+        "2 cups broccoli or snap peas",
+        "1 tsp sesame seeds for garnish",
+        "1 tbsp avocado oil"
+      ],
+      "instructions": [
+        "Cook brown rice per package instructions.",
+        "Whisk pineapple juice, soy sauce, honey, rice vinegar, garlic, ginger, and cornstarch to make glaze.",
+        "Heat oil in a wok over high heat. Sear chicken 6-8 min until golden.",
+        "Add broccoli or snap peas. Stir-fry 3-4 min until bright green.",
+        "Add pineapple chunks and pour glaze over everything. Toss and cook 2-3 min until thickened.",
+        "Serve over brown rice, garnish with sesame seeds.",
+        "Portion into 4 containers."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 8,
+      "name": "Greek Chicken & Quinoa Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 490, "protein_g": 48, "carbs_g": 38, "fat_g": 14 },
+      "ingredients": [
+        "2 lbs (900g) boneless skinless chicken thighs",
+        "1.5 cups quinoa (dry)",
+        "1 large cucumber, diced",
+        "1 cup cherry tomatoes, halved",
+        "1/3 cup kalamata olives, halved",
+        "1/4 cup red onion, finely diced",
+        "1/3 cup crumbled feta cheese",
+        "2 lemons, juiced and zested",
+        "3 tbsp olive oil",
+        "2 tsp dried oregano",
+        "4 garlic cloves, minced",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Marinate chicken: mix olive oil, lemon juice, zest, garlic, oregano, salt, and pepper. Coat chicken and marinate at least 30 min.",
+        "Rinse quinoa, cook in 3 cups water, simmer covered 15 min. Fluff with fork.",
+        "Cook chicken in skillet over medium-high 6-7 min per side until 165F. Rest 5 min then slice.",
+        "Toss cucumber, tomatoes, red onion, and olives with olive oil, salt, and pepper.",
+        "Assemble: quinoa base, sliced chicken, cucumber salad, feta on top.",
+        "Add tzatziki if desired: mix Greek yogurt with lemon, dill, and garlic."
+      ],
+      "storage": "Fridge 4 days, add salad fresh day-of for best texture"
+    },
+    {
+      "id": 9,
+      "name": "Beef & Veggie Stir Fry",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 470, "protein_g": 42, "carbs_g": 38, "fat_g": 16 },
+      "ingredients": [
+        "1.5 lbs (680g) lean beef sirloin or flank steak, sliced thin against the grain",
+        "2 cups broccoli florets",
+        "1 cup snap peas",
+        "1 medium carrot, thinly sliced",
+        "1 large red bell pepper, sliced",
+        "2 cups jasmine or brown rice (dry)",
+        "3 tbsp low-sodium soy sauce",
+        "2 tbsp oyster sauce",
+        "1 tsp sesame oil",
+        "4 garlic cloves, minced",
+        "1 tbsp fresh ginger, grated",
+        "2 tsp cornstarch",
+        "2 tbsp avocado oil"
+      ],
+      "instructions": [
+        "Cook rice per package instructions.",
+        "Toss sliced beef with cornstarch, 1 tbsp soy sauce, and pepper. Rest 10 min.",
+        "Mix remaining soy sauce, oyster sauce, sesame oil, and 2 tbsp water to make sauce.",
+        "Heat wok over high until smoking. Add 1 tbsp oil, sear beef in batches 1-2 min per side. Remove.",
+        "Add remaining oil. Stir fry carrots and peppers 2 min. Add broccoli and snap peas 3-4 min.",
+        "Add garlic and ginger 30 sec. Return beef to wok.",
+        "Pour sauce over everything. Toss on high heat 1-2 min until coated.",
+        "Serve over rice in 4 containers."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 10,
+      "name": "High-Protein Chocolate Pudding",
+      "category": "Snack",
+      "servings": 2,
+      "macros_per_serving": { "calories": 210, "protein_g": 28, "carbs_g": 18, "fat_g": 3 },
+      "ingredients": [
+        "1 cup (226g) low-fat cottage cheese",
+        "1 scoop (30g) chocolate protein powder",
+        "1 tbsp unsweetened cocoa powder",
+        "1 tbsp maple syrup or honey",
+        "1/2 tsp vanilla extract",
+        "2-3 tbsp milk or almond milk for consistency"
+      ],
+      "instructions": [
+        "Add all ingredients to a blender or use an immersion blender.",
+        "Blend until completely smooth about 60 sec, scraping sides as needed.",
+        "Taste and adjust sweetness or cocoa intensity.",
+        "Add milk one tbsp at a time to reach desired pudding thickness.",
+        "Pour into 2 containers.",
+        "Refrigerate at least 30 min to set. Top with berries or dark chocolate chips if desired."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 11,
+      "name": "Egg White & Veggie Frittata",
+      "category": "Breakfast",
+      "servings": 4,
+      "macros_per_serving": { "calories": 220, "protein_g": 30, "carbs_g": 8, "fat_g": 7 },
+      "ingredients": [
+        "2 cups (480ml) liquid egg whites",
+        "4 large whole eggs",
+        "2 cups baby spinach",
+        "1 cup cherry tomatoes, halved",
+        "1/4 cup crumbled feta cheese",
+        "1/4 cup red onion, thinly sliced",
+        "1/2 cup diced bell pepper",
+        "1 tbsp olive oil",
+        "1 tsp Italian seasoning",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat oven to 375F (190C).",
+        "Heat olive oil in an oven-safe 10-inch skillet over medium heat.",
+        "Saute red onion and bell pepper 3-4 min. Add spinach and cook until wilted 1-2 min.",
+        "Add cherry tomatoes and stir briefly.",
+        "Whisk egg whites and whole eggs with Italian seasoning, salt, and pepper.",
+        "Pour egg mixture over vegetables. Do not stir.",
+        "Sprinkle feta cheese on top.",
+        "Cook on stovetop 2-3 min until edges begin to set.",
+        "Transfer to oven and bake 15-18 min until center is firm.",
+        "Cool and slice into 4 wedges."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 12,
+      "name": "Turkey Meatballs & Zucchini Noodles",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 360, "protein_g": 38, "carbs_g": 18, "fat_g": 14 },
+      "ingredients": [
+        "1.5 lbs (680g) lean ground turkey",
+        "4 medium zucchinis, spiralized",
+        "1 can (24oz) marinara sauce (low sugar)",
+        "1/3 cup breadcrumbs (panko)",
+        "1/4 cup grated Parmesan cheese",
+        "1 egg",
+        "3 garlic cloves, minced",
+        "1 tsp Italian seasoning",
+        "1/2 tsp onion powder",
+        "Salt and pepper to taste",
+        "1 tbsp olive oil"
+      ],
+      "instructions": [
+        "Preheat oven to 400F (205C). Line a baking sheet with parchment.",
+        "Mix ground turkey, breadcrumbs, Parmesan, egg, garlic, Italian seasoning, onion powder, salt, and pepper.",
+        "Roll into 20-24 equal meatballs and place on baking sheet.",
+        "Bake 18-20 min until cooked through and lightly browned.",
+        "Warm marinara sauce in a large pan over medium heat.",
+        "Add cooked meatballs to sauce and simmer 5 min.",
+        "Heat olive oil in a separate pan, saute zucchini noodles 2-3 min until just tender.",
+        "Serve meatballs and sauce over zucchini noodles."
+      ],
+      "storage": "Fridge 4 days / Freeze meatballs separately 3 months"
+    },
+    {
+      "id": 13,
+      "name": "Shrimp & Broccoli Stir Fry",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 350, "protein_g": 36, "carbs_g": 34, "fat_g": 7 },
+      "ingredients": [
+        "1.5 lbs (680g) large shrimp, peeled and deveined",
+        "4 cups broccoli florets",
+        "3 cups cooked jasmine rice",
+        "3 tbsp low-sodium soy sauce",
+        "1 tbsp oyster sauce",
+        "1 tbsp honey",
+        "1 tsp sesame oil",
+        "4 garlic cloves, minced",
+        "1 tsp fresh ginger, grated",
+        "1 tbsp cornstarch mixed with 2 tbsp water",
+        "2 tbsp avocado oil",
+        "Red chili flakes to taste"
+      ],
+      "instructions": [
+        "Mix soy sauce, oyster sauce, honey, sesame oil, and cornstarch mixture to make sauce.",
+        "Heat 1 tbsp oil in a wok over high heat. Cook shrimp 1-2 min per side until pink. Remove.",
+        "Add remaining oil. Stir fry broccoli 3-4 min until bright green and slightly tender.",
+        "Add garlic and ginger 30 sec.",
+        "Return shrimp to wok. Pour sauce over everything. Toss 1-2 min until coated.",
+        "Serve over rice. Add chili flakes if desired."
+      ],
+      "storage": "Fridge 3 days"
+    },
+    {
+      "id": 14,
+      "name": "Stuffed Bell Peppers with Ground Beef",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 440, "protein_g": 40, "carbs_g": 30, "fat_g": 15 },
+      "ingredients": [
+        "1.5 lbs (680g) lean ground beef 90/10",
+        "4 large bell peppers, tops cut off and seeds removed",
+        "1 cup brown rice, cooked",
+        "1 can (14.5oz) diced tomatoes, drained",
+        "1/2 cup shredded cheddar cheese",
+        "1 small onion, diced",
+        "3 garlic cloves, minced",
+        "1 tsp Italian seasoning",
+        "1 tsp cumin",
+        "Salt and pepper to taste",
+        "1 tbsp olive oil"
+      ],
+      "instructions": [
+        "Preheat oven to 375F (190C).",
+        "Heat olive oil in a skillet. Cook onion 3 min, add garlic 1 min.",
+        "Add ground beef, cook until browned, about 7-8 min. Drain excess fat.",
+        "Stir in diced tomatoes, cooked rice, Italian seasoning, cumin, salt, and pepper. Cook 2 min.",
+        "Place hollowed peppers in a baking dish. Fill each with the beef-rice mixture.",
+        "Top each pepper with shredded cheese.",
+        "Cover with foil and bake 30 min. Uncover and bake 10 more min until peppers are tender and cheese is bubbly."
+      ],
+      "storage": "Fridge 4 days / Freezer 2 months"
+    },
+    {
+      "id": 15,
+      "name": "Chicken Tikka Masala (Lightened)",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 430, "protein_g": 45, "carbs_g": 32, "fat_g": 12 },
+      "ingredients": [
+        "2 lbs (900g) boneless skinless chicken breast, cubed",
+        "1 can (14oz) crushed tomatoes",
+        "1/2 cup plain Greek yogurt",
+        "1/3 cup light coconut milk",
+        "1 medium onion, diced",
+        "4 garlic cloves, minced",
+        "1 tbsp fresh ginger, grated",
+        "2 tbsp tikka masala spice blend",
+        "1 tsp garam masala",
+        "1 tsp cumin",
+        "1 tbsp avocado oil",
+        "2 cups cooked basmati rice for serving",
+        "Fresh cilantro for garnish",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Marinate chicken in Greek yogurt, half the tikka masala, salt, and 1 garlic clove. Refrigerate 30 min minimum.",
+        "Heat oil in a large pan over medium-high. Cook marinated chicken in batches until golden. Remove.",
+        "In the same pan saute onion 5 min, add garlic, ginger, remaining tikka masala, garam masala, and cumin. Cook 2 min.",
+        "Add crushed tomatoes. Simmer 10 min.",
+        "Stir in coconut milk. Add chicken back to the pan.",
+        "Simmer together 10-15 min until sauce thickens.",
+        "Serve over basmati rice, garnish with cilantro."
+      ],
+      "storage": "Fridge 4 days / Freezer 3 months"
+    },
+    {
+      "id": 16,
+      "name": "Ground Turkey Sweet Potato Skillet",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 390, "protein_g": 35, "carbs_g": 30, "fat_g": 12 },
+      "ingredients": [
+        "1.5 lbs (680g) lean ground turkey",
+        "2 medium sweet potatoes, peeled and diced small",
+        "2 large bell peppers, diced",
+        "2 cups kale or spinach, roughly chopped",
+        "1/2 cup shredded Mexican cheese blend",
+        "2 tbsp olive oil",
+        "1 tsp cumin",
+        "1 tsp chili powder",
+        "1 tsp garlic powder",
+        "1/2 cup diced onion",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Heat 1 tbsp olive oil in a large skillet over medium-high. Add sweet potatoes and cook 10-12 min until tender. Remove.",
+        "Add remaining oil, cook onion and peppers until softened about 5 min.",
+        "Add ground turkey. Break apart and cook fully through about 8 min.",
+        "Season with cumin, chili powder, garlic powder, salt, and pepper.",
+        "Return sweet potatoes to pan. Add kale and stir until wilted about 2 min.",
+        "Top with shredded cheese, cover 1 min to melt.",
+        "Divide into 4 meal prep containers."
+      ],
+      "storage": "Fridge 4-5 days"
+    },
+    {
+      "id": 17,
+      "name": "Cajun Chicken Pasta",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 510, "protein_g": 46, "carbs_g": 48, "fat_g": 13 },
+      "ingredients": [
+        "1.5 lbs (680g) chicken breast, sliced thin",
+        "12oz high-protein penne pasta",
+        "1 cup cherry tomatoes, halved",
+        "1 cup baby spinach",
+        "3 garlic cloves, minced",
+        "1/2 cup low-sodium chicken broth",
+        "1/2 cup light cream or Greek yogurt",
+        "2 tbsp Cajun seasoning",
+        "1 tbsp olive oil",
+        "1/4 cup grated Parmesan",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cook pasta al dente per package. Reserve 1/2 cup pasta water. Drain.",
+        "Coat chicken with Cajun seasoning, salt, and pepper.",
+        "Heat oil in a large skillet over medium-high. Cook chicken 4-5 min per side until cooked through. Remove and slice.",
+        "In the same pan saute garlic 1 min. Add cherry tomatoes, cook 2 min.",
+        "Add broth and scrape up any bits. Stir in cream or yogurt.",
+        "Add pasta, spinach, and chicken. Toss to coat, adding pasta water as needed.",
+        "Top with Parmesan. Divide into 4 containers."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 18,
+      "name": "Teriyaki Chicken Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 450, "protein_g": 43, "carbs_g": 47, "fat_g": 8 },
+      "ingredients": [
+        "2 lbs (900g) boneless skinless chicken thighs",
+        "2 cups jasmine or brown rice (dry)",
+        "2 cups broccoli florets",
+        "1 cup shredded carrots",
+        "3 tbsp low-sodium soy sauce",
+        "2 tbsp honey",
+        "1 tbsp rice vinegar",
+        "1 tsp sesame oil",
+        "3 garlic cloves, minced",
+        "1 tsp fresh ginger, grated",
+        "1 tsp cornstarch dissolved in 1 tbsp water",
+        "1 tbsp avocado oil",
+        "Sesame seeds and green onion for garnish"
+      ],
+      "instructions": [
+        "Cook rice per package instructions.",
+        "Make teriyaki sauce: combine soy sauce, honey, rice vinegar, sesame oil, garlic, ginger, and cornstarch mixture.",
+        "Heat oil in a skillet over medium-high. Cook chicken thighs 5-6 min per side until 165F.",
+        "Pour teriyaki sauce over chicken. Simmer 2-3 min until sauce thickens and glazes chicken.",
+        "Remove chicken and slice. Steam or saute broccoli and carrots until tender-crisp.",
+        "Assemble bowls: rice, veggies, chicken. Drizzle with extra sauce. Garnish with sesame seeds and green onion."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 19,
+      "name": "Turkey & Veggie Omelette",
+      "category": "Breakfast",
+      "servings": 1,
+      "macros_per_serving": { "calories": 380, "protein_g": 40, "carbs_g": 6, "fat_g": 20 },
+      "ingredients": [
+        "3 large eggs",
+        "3 tbsp liquid egg whites",
+        "3oz cooked ground turkey or diced turkey breast",
+        "1/4 cup diced bell pepper",
+        "1/4 cup baby spinach",
+        "2 tbsp diced onion",
+        "2 tbsp shredded cheese (cheddar or mozzarella)",
+        "1 tsp olive oil or butter",
+        "Salt and pepper to taste",
+        "Hot sauce optional"
+      ],
+      "instructions": [
+        "Whisk eggs and egg whites with salt and pepper.",
+        "Heat oil in a non-stick pan over medium. Saute onion and pepper 2 min.",
+        "Add spinach and turkey, cook 1 min more. Remove and set aside.",
+        "Wipe pan clean, add a bit more oil.",
+        "Pour in egg mixture. Cook undisturbed until edges begin to set about 2-3 min.",
+        "Add filling to one half. Sprinkle cheese on top.",
+        "Fold omelette in half and cook 1 more min.",
+        "Slide onto plate. Add hot sauce if desired."
+      ],
+      "storage": "Best eaten fresh"
+    },
+    {
+      "id": 20,
+      "name": "Protein French Toast",
+      "category": "Breakfast",
+      "servings": 2,
+      "macros_per_serving": { "calories": 430, "protein_g": 36, "carbs_g": 44, "fat_g": 10 },
+      "ingredients": [
+        "4 slices thick whole-grain or brioche bread",
+        "3 large eggs",
+        "1/2 cup (113g) 0% Greek yogurt",
+        "1/2 cup milk",
+        "1 scoop (30g) vanilla protein powder",
+        "1 tsp cinnamon",
+        "1/2 tsp vanilla extract",
+        "1 tbsp butter or coconut oil",
+        "Fresh berries and maple syrup for topping"
+      ],
+      "instructions": [
+        "Whisk eggs, Greek yogurt, milk, protein powder, cinnamon, and vanilla until smooth.",
+        "Soak bread slices in egg mixture 30-60 sec per side.",
+        "Heat butter in a non-stick pan over medium.",
+        "Cook soaked bread 2-3 min per side until golden brown.",
+        "Serve topped with fresh berries and a drizzle of maple syrup."
+      ],
+      "storage": "Fridge 3 days, reheat in toaster"
+    },
+    {
+      "id": 21,
+      "name": "Chicken Burrito Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 5,
+      "macros_per_serving": { "calories": 460, "protein_g": 42, "carbs_g": 46, "fat_g": 10 },
+      "ingredients": [
+        "2 lbs (900g) chicken breast",
+        "2 cups cilantro-lime rice (cook rice with lime juice and fresh cilantro)",
+        "1 can (15oz) pinto or black beans, drained",
+        "1 cup corn",
+        "1 cup pico de gallo or salsa",
+        "1 cup shredded romaine lettuce",
+        "1/2 cup shredded cheese",
+        "1 avocado, diced (add fresh)",
+        "2 tbsp taco or fajita seasoning",
+        "1 tbsp avocado oil",
+        "Lime juice to taste"
+      ],
+      "instructions": [
+        "Season chicken with fajita seasoning. Heat oil in a skillet and cook chicken 6-7 min per side until 165F. Rest and slice.",
+        "Cook rice per package instructions. Stir in lime juice and fresh cilantro when done.",
+        "Heat beans with a pinch of cumin and salt.",
+        "Assemble in 5 containers: rice, beans, corn, chicken, pico, lettuce, cheese.",
+        "Add avocado fresh when serving."
+      ],
+      "storage": "Fridge 4 days without avocado"
+    },
+    {
+      "id": 22,
+      "name": "Tuna Stuffed Avocado",
+      "category": "Lunch/Snack",
+      "servings": 2,
+      "macros_per_serving": { "calories": 360, "protein_g": 30, "carbs_g": 8, "fat_g": 24 },
+      "ingredients": [
+        "2 cans (5oz each) albacore tuna in water, drained",
+        "2 ripe avocados, halved and pitted",
+        "2 tbsp plain Greek yogurt or light mayo",
+        "1 tbsp lemon juice",
+        "1 celery stalk, finely diced",
+        "2 tbsp red onion, finely diced",
+        "1 tbsp Dijon mustard",
+        "Salt and pepper to taste",
+        "Paprika for garnish"
+      ],
+      "instructions": [
+        "Mix tuna with Greek yogurt, lemon juice, celery, red onion, mustard, salt, and pepper.",
+        "Scoop a little extra avocado from the center of each half to make room.",
+        "Dice the scooped avocado and fold into the tuna mixture.",
+        "Fill each avocado half generously with tuna salad.",
+        "Dust with paprika and serve."
+      ],
+      "storage": "Best eaten fresh, tuna salad lasts 3 days"
+    },
+    {
+      "id": 23,
+      "name": "Shrimp Fried Rice",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 420, "protein_g": 34, "carbs_g": 48, "fat_g": 9 },
+      "ingredients": [
+        "1 lb (450g) large shrimp, peeled and deveined",
+        "3 cups cooked and cooled jasmine rice (day-old works best)",
+        "3 large eggs",
+        "1 cup frozen peas and carrots",
+        "3 green onion stalks, chopped",
+        "4 garlic cloves, minced",
+        "3 tbsp low-sodium soy sauce",
+        "1 tbsp oyster sauce",
+        "1 tsp sesame oil",
+        "2 tbsp avocado oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Heat 1 tbsp oil in a wok over high heat. Cook shrimp 1-2 min per side. Remove.",
+        "Add remaining oil. Add garlic and frozen peas and carrots, stir fry 2 min.",
+        "Push veggies to the side. Scramble eggs in the empty space until just set.",
+        "Add rice, breaking up any clumps. Stir fry everything together 3-4 min.",
+        "Add shrimp back. Pour soy sauce, oyster sauce, and sesame oil over everything.",
+        "Toss on high heat 1-2 min. Garnish with green onions."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 24,
+      "name": "Chicken Souvlaki Plate",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 460, "protein_g": 46, "carbs_g": 34, "fat_g": 13 },
+      "ingredients": [
+        "2 lbs (900g) chicken breast, cut into 1.5-inch cubes",
+        "2 cups cooked brown rice or pita",
+        "1 large cucumber, diced",
+        "1 cup cherry tomatoes, halved",
+        "1/2 cup red onion, sliced",
+        "1/3 cup crumbled feta",
+        "3 tbsp olive oil",
+        "2 lemons, juiced",
+        "4 garlic cloves, minced",
+        "2 tsp dried oregano",
+        "1 tsp dried thyme",
+        "Salt and pepper to taste",
+        "Tzatziki: 1 cup Greek yogurt + 1/2 cucumber grated + dill + lemon"
+      ],
+      "instructions": [
+        "Marinate chicken: mix olive oil, lemon juice, garlic, oregano, thyme, salt, pepper. Marinate at least 1 hour.",
+        "Thread chicken onto skewers. Grill or broil 10-12 min turning occasionally until cooked through.",
+        "Make tzatziki by mixing all tzatziki ingredients. Refrigerate.",
+        "Assemble plates: rice or pita base, chicken, cucumber-tomato salad, red onion, feta, and a generous dollop of tzatziki."
+      ],
+      "storage": "Fridge 4 days, tzatziki 5 days"
+    },
+    {
+      "id": 25,
+      "name": "Korean Ground Beef Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 430, "protein_g": 38, "carbs_g": 40, "fat_g": 13 },
+      "ingredients": [
+        "1.5 lbs (680g) lean ground beef 90/10",
+        "2 cups jasmine rice (dry)",
+        "4 garlic cloves, minced",
+        "1 tsp fresh ginger, grated",
+        "3 tbsp low-sodium soy sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp honey",
+        "1 tbsp rice vinegar",
+        "1/2 tsp red pepper flakes",
+        "3 green onion stalks, sliced",
+        "1 tbsp sesame seeds",
+        "2 cups steamed broccoli or bok choy",
+        "1 tbsp avocado oil"
+      ],
+      "instructions": [
+        "Cook rice per package instructions.",
+        "Mix soy sauce, sesame oil, honey, rice vinegar, and red pepper flakes into a sauce.",
+        "Heat oil in a skillet over medium-high. Add garlic and ginger, cook 1 min.",
+        "Add ground beef. Cook until browned, about 8 min, breaking it apart.",
+        "Pour sauce over beef. Stir and cook 2 min until absorbed.",
+        "Serve over rice with steamed broccoli. Top with green onions and sesame seeds."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 26,
+      "name": "Salmon Poke Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 2,
+      "macros_per_serving": { "calories": 490, "protein_g": 40, "carbs_g": 44, "fat_g": 16 },
+      "ingredients": [
+        "12oz sushi-grade salmon, diced into 1-inch cubes",
+        "2 cups cooked sushi rice",
+        "1/2 cup shelled edamame",
+        "1/2 cucumber, sliced thin",
+        "1 avocado, sliced",
+        "1/4 cup shredded carrots",
+        "2 tbsp low-sodium soy sauce",
+        "1 tsp sesame oil",
+        "1 tsp rice vinegar",
+        "1 tsp sriracha (optional)",
+        "Sesame seeds and green onions for garnish",
+        "Seaweed snack strips (optional)"
+      ],
+      "instructions": [
+        "Mix soy sauce, sesame oil, rice vinegar, and sriracha. Toss salmon cubes in this marinade. Rest 15 min.",
+        "Divide sushi rice into 2 bowls.",
+        "Arrange marinated salmon, edamame, cucumber, avocado, and carrots over rice.",
+        "Drizzle extra marinade or soy sauce on top.",
+        "Garnish with sesame seeds, green onion, and seaweed strips."
+      ],
+      "storage": "Best eaten same day. Store components separately if prepping ahead."
+    },
+    {
+      "id": 27,
+      "name": "Turkey & Hummus Wrap",
+      "category": "Lunch",
+      "servings": 2,
+      "macros_per_serving": { "calories": 430, "protein_g": 36, "carbs_g": 40, "fat_g": 13 },
+      "ingredients": [
+        "8oz sliced deli turkey breast (low sodium)",
+        "2 large whole wheat tortillas",
+        "4 tbsp hummus",
+        "1/2 cup baby spinach",
+        "1/2 cucumber, sliced",
+        "1/4 cup shredded carrots",
+        "1/4 cup diced roasted red pepper",
+        "2 tbsp crumbled feta cheese",
+        "1 tbsp lemon juice",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Lay tortillas flat. Spread 2 tbsp hummus on each.",
+        "Layer turkey, spinach, cucumber, carrots, roasted red pepper, and feta.",
+        "Drizzle lemon juice over filling. Season with salt and pepper.",
+        "Roll tightly, tucking in the sides as you go.",
+        "Cut in half diagonally and wrap in foil or parchment for storage."
+      ],
+      "storage": "Fridge 2 days wrapped tightly"
+    },
+    {
+      "id": 28,
+      "name": "Baked Lemon Garlic Salmon",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 380, "protein_g": 42, "carbs_g": 2, "fat_g": 22 },
+      "ingredients": [
+        "4 x 6oz salmon fillets",
+        "3 tbsp olive oil",
+        "4 garlic cloves, minced",
+        "2 lemons (1 sliced, 1 juiced)",
+        "1 tbsp fresh dill or 1 tsp dried dill",
+        "1 tbsp fresh parsley, chopped",
+        "1/2 tsp red pepper flakes",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat oven to 400F (205C). Line a baking dish with foil.",
+        "Mix olive oil, garlic, lemon juice, dill, parsley, and red pepper flakes.",
+        "Place salmon fillets in baking dish. Pour garlic-lemon mixture over each.",
+        "Layer lemon slices on top of each fillet.",
+        "Bake 12-15 min until salmon flakes easily with a fork.",
+        "Serve with roasted veggies or a salad."
+      ],
+      "storage": "Fridge 3 days"
+    },
+    {
+      "id": 29,
+      "name": "Honey Garlic Chicken Thighs",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 420, "protein_g": 40, "carbs_g": 22, "fat_g": 18 },
+      "ingredients": [
+        "2 lbs (900g) bone-in skin-on chicken thighs",
+        "3 tbsp honey",
+        "4 garlic cloves, minced",
+        "2 tbsp low-sodium soy sauce",
+        "1 tbsp apple cider vinegar",
+        "1 tsp smoked paprika",
+        "1/2 tsp red pepper flakes",
+        "1 tbsp olive oil",
+        "Salt and pepper to taste",
+        "Fresh thyme or parsley for garnish"
+      ],
+      "instructions": [
+        "Preheat oven to 400F (205C).",
+        "Season chicken with paprika, salt, and pepper.",
+        "Heat oil in an oven-safe skillet over medium-high. Sear chicken skin-side down 4-5 min until golden.",
+        "Flip chicken. Mix honey, garlic, soy sauce, vinegar, and red pepper flakes.",
+        "Pour sauce over chicken. Transfer skillet to oven.",
+        "Bake 20-25 min until internal temp reaches 165F and sauce is caramelized.",
+        "Garnish with fresh herbs. Serve with roasted veggies or rice."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 30,
+      "name": "Ground Turkey Chili",
+      "category": "Dinner",
+      "servings": 6,
+      "macros_per_serving": { "calories": 380, "protein_g": 40, "carbs_g": 30, "fat_g": 9 },
+      "ingredients": [
+        "2 lbs (900g) lean ground turkey",
+        "1 can (15oz) kidney beans, drained",
+        "1 can (15oz) black beans, drained",
+        "1 can (28oz) crushed tomatoes",
+        "1 can (14.5oz) diced tomatoes",
+        "1 medium onion, diced",
+        "3 garlic cloves, minced",
+        "1 green bell pepper, diced",
+        "2 tbsp chili powder",
+        "1 tsp cumin",
+        "1 tsp smoked paprika",
+        "1/2 tsp cayenne pepper",
+        "1 tbsp olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Heat oil in a large pot over medium heat. Saute onion and bell pepper 5 min.",
+        "Add garlic, cook 1 min. Add ground turkey, cook until browned about 8 min.",
+        "Add all spices, stir and cook 1 min.",
+        "Add crushed tomatoes, diced tomatoes, kidney beans, and black beans.",
+        "Bring to a boil, reduce heat, and simmer uncovered 25-30 min until thickened.",
+        "Adjust seasoning. Serve with optional toppings: shredded cheese, sour cream, green onion."
+      ],
+      "storage": "Fridge 5 days / Freezer 3 months"
+    },
+    {
+      "id": 31,
+      "name": "Teriyaki Salmon Bowl",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 480, "protein_g": 40, "carbs_g": 44, "fat_g": 14 },
+      "ingredients": [
+        "4 x 6oz salmon fillets",
+        "2 cups brown rice (dry)",
+        "2 cups broccoli florets",
+        "3 tbsp low-sodium soy sauce",
+        "2 tbsp honey",
+        "1 tbsp rice vinegar",
+        "1 tsp sesame oil",
+        "2 garlic cloves, minced",
+        "1 tsp cornstarch dissolved in 1 tbsp water",
+        "1 tbsp avocado oil",
+        "Sesame seeds and green onions for topping"
+      ],
+      "instructions": [
+        "Cook rice per package. Steam or saute broccoli until tender-crisp.",
+        "Make teriyaki sauce: combine soy sauce, honey, rice vinegar, sesame oil, garlic, and cornstarch mixture in a small pan. Heat until thickened, about 2 min.",
+        "Brush salmon with a bit of sauce. Heat oil in a skillet over medium-high.",
+        "Cook salmon 3-4 min per side until cooked through.",
+        "Assemble bowls: rice, broccoli, salmon. Spoon extra sauce over salmon.",
+        "Top with sesame seeds and green onions."
+      ],
+      "storage": "Fridge 3 days"
+    },
+    {
+      "id": 32,
+      "name": "Chicken Fajita Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 440, "protein_g": 42, "carbs_g": 40, "fat_g": 11 },
+      "ingredients": [
+        "2 lbs (900g) chicken breast, sliced into strips",
+        "3 bell peppers (mixed colors), sliced",
+        "1 large onion, sliced",
+        "2 cups cooked cilantro-lime rice",
+        "1 can (15oz) black beans, drained and rinsed",
+        "2 tbsp fajita or taco seasoning",
+        "2 tbsp avocado oil",
+        "1 lime, juiced",
+        "Fresh cilantro",
+        "Salsa and Greek yogurt (instead of sour cream) for topping"
+      ],
+      "instructions": [
+        "Toss chicken strips with fajita seasoning and 1 tbsp oil.",
+        "Heat remaining oil in a large skillet over high heat. Cook chicken 5-6 min until cooked. Remove.",
+        "In the same pan, cook peppers and onions over high 4-5 min until charred and tender.",
+        "Squeeze lime juice over the peppers.",
+        "Assemble bowls: cilantro-lime rice, black beans, chicken, fajita veggies.",
+        "Top with salsa, fresh cilantro, and a dollop of Greek yogurt."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 33,
+      "name": "Lemon Herb Baked Tilapia",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 260, "protein_g": 38, "carbs_g": 4, "fat_g": 9 },
+      "ingredients": [
+        "4 x 6oz tilapia fillets",
+        "3 tbsp olive oil",
+        "3 garlic cloves, minced",
+        "2 lemons (1 juiced, 1 sliced)",
+        "1 tsp dried thyme",
+        "1 tsp dried oregano",
+        "1/2 tsp paprika",
+        "Fresh parsley, chopped",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat oven to 400F (205C). Line a baking sheet with parchment.",
+        "Mix olive oil, garlic, lemon juice, thyme, oregano, and paprika.",
+        "Place tilapia on baking sheet. Brush generously with herb mixture.",
+        "Layer lemon slices on top of each fillet.",
+        "Bake 12-15 min until fish flakes easily.",
+        "Garnish with fresh parsley. Serve with roasted vegetables or quinoa."
+      ],
+      "storage": "Fridge 2-3 days"
+    },
+    {
+      "id": 34,
+      "name": "Thai Peanut Chicken",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 470, "protein_g": 44, "carbs_g": 36, "fat_g": 16 },
+      "ingredients": [
+        "2 lbs (900g) chicken breast, cut into strips",
+        "2 cups jasmine rice (dry)",
+        "2 cups snap peas or broccoli",
+        "1 red bell pepper, sliced",
+        "3 tbsp natural peanut butter",
+        "2 tbsp low-sodium soy sauce",
+        "1 tbsp honey",
+        "1 tbsp rice vinegar",
+        "1 tbsp lime juice",
+        "1 tsp sriracha",
+        "2 garlic cloves, minced",
+        "1 tsp fresh ginger",
+        "2 tbsp avocado oil",
+        "Crushed peanuts and green onions for garnish"
+      ],
+      "instructions": [
+        "Cook rice per package.",
+        "Make peanut sauce: whisk peanut butter, soy sauce, honey, rice vinegar, lime juice, sriracha, garlic, and ginger. Add 2-3 tbsp water to thin.",
+        "Heat oil in a wok over high. Cook chicken strips 5-6 min until golden. Remove.",
+        "Stir fry snap peas and peppers 3-4 min.",
+        "Return chicken to wok. Pour peanut sauce over everything. Toss to coat.",
+        "Serve over rice. Garnish with crushed peanuts and green onion."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 35,
+      "name": "Pork Tenderloin with Roasted Veggies",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 390, "protein_g": 44, "carbs_g": 20, "fat_g": 12 },
+      "ingredients": [
+        "2 lbs (900g) pork tenderloin",
+        "2 medium zucchinis, sliced",
+        "1 cup cherry tomatoes",
+        "1 red onion, cut into wedges",
+        "2 cups baby potatoes, halved",
+        "3 tbsp olive oil, divided",
+        "4 garlic cloves, minced",
+        "1 tbsp Dijon mustard",
+        "1 tsp dried rosemary",
+        "1 tsp dried thyme",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat oven to 425F (220C).",
+        "Toss potatoes with 1 tbsp oil, salt, and pepper on a baking sheet. Roast 15 min.",
+        "Rub pork with remaining oil, mustard, garlic, rosemary, thyme, salt, and pepper.",
+        "Add pork to the baking sheet along with zucchini, tomatoes, and red onion.",
+        "Roast together 20-25 min until pork internal temp reaches 145F.",
+        "Rest pork 5 min before slicing. Serve with roasted vegetables."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 36,
+      "name": "Baked Chicken Meatballs",
+      "category": "Lunch/Dinner",
+      "servings": 5,
+      "macros_per_serving": { "calories": 320, "protein_g": 36, "carbs_g": 14, "fat_g": 12 },
+      "ingredients": [
+        "2 lbs (900g) ground chicken",
+        "1/3 cup breadcrumbs",
+        "1 egg",
+        "1/4 cup grated Parmesan",
+        "3 garlic cloves, minced",
+        "2 tbsp fresh parsley, chopped",
+        "1 tsp Italian seasoning",
+        "1/2 tsp onion powder",
+        "Salt and pepper to taste",
+        "Marinara sauce for serving"
+      ],
+      "instructions": [
+        "Preheat oven to 400F (205C). Line a baking sheet with parchment.",
+        "Combine ground chicken, breadcrumbs, egg, Parmesan, garlic, parsley, Italian seasoning, onion powder, salt, and pepper.",
+        "Mix until just combined. Do not overmix.",
+        "Roll into 25-30 equal balls and place on baking sheet.",
+        "Bake 18-20 min until cooked through and lightly golden.",
+        "Serve with marinara, over pasta, rice, or in a sub."
+      ],
+      "storage": "Fridge 4 days / Freezer 3 months"
+    },
+    {
+      "id": 37,
+      "name": "Sesame Ginger Salmon",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 420, "protein_g": 40, "carbs_g": 16, "fat_g": 22 },
+      "ingredients": [
+        "4 x 6oz salmon fillets",
+        "3 tbsp low-sodium soy sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp honey",
+        "1 tbsp rice vinegar",
+        "2 garlic cloves, minced",
+        "1 tbsp fresh ginger, grated",
+        "1 tbsp avocado oil",
+        "Sesame seeds and sliced green onions for garnish",
+        "Steamed bok choy or broccoli for serving"
+      ],
+      "instructions": [
+        "Whisk soy sauce, sesame oil, honey, rice vinegar, garlic, and ginger into a marinade.",
+        "Place salmon in a shallow dish and pour marinade over it. Marinate 20-30 min.",
+        "Heat avocado oil in a skillet over medium-high. Remove salmon from marinade (reserve it).",
+        "Cook salmon 3-4 min per side until cooked through.",
+        "Pour reserved marinade into pan after flipping, cook 1-2 min to reduce slightly.",
+        "Serve over steamed greens. Garnish with sesame seeds and green onions."
+      ],
+      "storage": "Fridge 3 days"
+    },
+    {
+      "id": 38,
+      "name": "Beef Egg Roll in a Bowl",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 380, "protein_g": 33, "carbs_g": 22, "fat_g": 16 },
+      "ingredients": [
+        "1.5 lbs (680g) lean ground beef 90/10",
+        "1 bag (14oz) coleslaw mix (shredded cabbage and carrots)",
+        "4 garlic cloves, minced",
+        "1 tbsp fresh ginger, grated",
+        "3 tbsp low-sodium soy sauce",
+        "1 tbsp sesame oil",
+        "1 tbsp rice vinegar",
+        "1 tsp sriracha or chili garlic sauce",
+        "3 green onion stalks, sliced",
+        "1 tbsp avocado oil",
+        "2 cups cooked rice or cauliflower rice"
+      ],
+      "instructions": [
+        "Heat avocado oil in a large wok or skillet over medium-high.",
+        "Add ground beef and cook until browned about 8 min. Drain excess fat.",
+        "Add garlic and ginger, cook 1 min.",
+        "Add coleslaw mix. Toss and cook 3-4 min until cabbage wilts slightly.",
+        "Pour in soy sauce, sesame oil, rice vinegar, and sriracha. Toss everything to coat.",
+        "Cook 2 more min. Garnish with green onions.",
+        "Serve over rice or cauliflower rice."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 39,
+      "name": "Chipotle Lime Shrimp Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 420, "protein_g": 36, "carbs_g": 46, "fat_g": 9 },
+      "ingredients": [
+        "1.5 lbs (680g) large shrimp, peeled and deveined",
+        "2 cups cilantro-lime rice",
+        "1 can (15oz) black beans, drained",
+        "1 cup corn",
+        "1 cup pico de gallo",
+        "2 tbsp adobo sauce from canned chipotles",
+        "2 tbsp lime juice",
+        "1 tsp cumin",
+        "1 tsp garlic powder",
+        "1 tbsp avocado oil",
+        "Salt and pepper to taste",
+        "Fresh cilantro and lime wedges for serving"
+      ],
+      "instructions": [
+        "Toss shrimp with adobo sauce, lime juice, cumin, garlic powder, salt, and pepper.",
+        "Heat oil in a skillet over medium-high. Cook shrimp 1-2 min per side until pink and curled. Do not overcook.",
+        "Assemble bowls: rice, black beans, corn, shrimp, pico de gallo.",
+        "Garnish with cilantro and lime wedges."
+      ],
+      "storage": "Fridge 3 days"
+    },
+    {
+      "id": 40,
+      "name": "Turkey Stuffed Zucchini Boats",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 350, "protein_g": 34, "carbs_g": 18, "fat_g": 14 },
+      "ingredients": [
+        "4 large zucchinis, halved lengthwise",
+        "1 lb (450g) lean ground turkey",
+        "1 can (14.5oz) diced tomatoes, drained",
+        "1/2 cup diced onion",
+        "3 garlic cloves, minced",
+        "1 tsp Italian seasoning",
+        "1/2 tsp paprika",
+        "1/2 cup shredded mozzarella cheese",
+        "1/4 cup grated Parmesan",
+        "1 tbsp olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat oven to 400F (205C). Scoop out center of zucchini halves, chop the flesh and reserve.",
+        "Brush zucchini boats with olive oil, season with salt. Place cut-side up on a baking sheet. Bake 10 min.",
+        "In a skillet, heat oil, saute onion 3 min, add garlic 1 min.",
+        "Add turkey, cook until browned. Add chopped zucchini flesh and diced tomatoes.",
+        "Season with Italian seasoning, paprika, salt, and pepper. Cook 5 min.",
+        "Fill zucchini boats with turkey mixture. Top with mozzarella and Parmesan.",
+        "Bake 15 min until cheese is melted and bubbly."
+      ],
+      "storage": "Fridge 3 days"
+    },
+    {
+      "id": 41,
+      "name": "Chicken & Lentil Soup",
+      "category": "Dinner",
+      "servings": 6,
+      "macros_per_serving": { "calories": 380, "protein_g": 38, "carbs_g": 36, "fat_g": 8 },
+      "ingredients": [
+        "1.5 lbs (680g) boneless skinless chicken breast",
+        "1.5 cups dry red lentils, rinsed",
+        "1 can (14.5oz) diced tomatoes",
+        "1 large onion, diced",
+        "3 carrots, diced",
+        "3 celery stalks, diced",
+        "4 garlic cloves, minced",
+        "6 cups low-sodium chicken broth",
+        "2 tsp cumin",
+        "1 tsp coriander",
+        "1 tsp turmeric",
+        "1 tbsp olive oil",
+        "Baby spinach 2 cups",
+        "Salt and pepper to taste",
+        "Lemon juice to finish"
+      ],
+      "instructions": [
+        "Heat oil in a large pot over medium. Saute onion, carrot, and celery 5 min.",
+        "Add garlic, cumin, coriander, and turmeric. Cook 2 min.",
+        "Add lentils, chicken breasts (whole), diced tomatoes, and broth.",
+        "Bring to boil, reduce heat, cover and simmer 25 min until chicken is cooked and lentils are tender.",
+        "Remove chicken and shred. Return to pot.",
+        "Stir in baby spinach and cook 2 min until wilted.",
+        "Finish with a squeeze of lemon. Adjust seasoning."
+      ],
+      "storage": "Fridge 5 days / Freezer 3 months"
+    },
+    {
+      "id": 42,
+      "name": "Garlic Butter Shrimp & Asparagus",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 310, "protein_g": 34, "carbs_g": 8, "fat_g": 16 },
+      "ingredients": [
+        "1.5 lbs (680g) large shrimp, peeled and deveined",
+        "1 bunch asparagus, ends trimmed",
+        "4 tbsp unsalted butter",
+        "5 garlic cloves, minced",
+        "2 tbsp lemon juice",
+        "1/2 tsp red pepper flakes",
+        "1/4 cup low-sodium chicken broth",
+        "Fresh parsley, chopped",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Season shrimp with salt, pepper, and red pepper flakes.",
+        "Melt 2 tbsp butter in a large skillet over medium-high. Cook asparagus 3-4 min until tender-crisp. Remove.",
+        "Add remaining butter. Cook garlic 1 min until fragrant.",
+        "Add shrimp in a single layer. Cook 1-2 min per side until pink.",
+        "Add broth and lemon juice. Stir and cook 1 min.",
+        "Return asparagus to pan. Toss everything together.",
+        "Garnish with parsley. Serve immediately."
+      ],
+      "storage": "Fridge 2 days"
+    },
+    {
+      "id": 43,
+      "name": "Buffalo Chicken Rice Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 440, "protein_g": 44, "carbs_g": 44, "fat_g": 10 },
+      "ingredients": [
+        "2 lbs (900g) chicken breast",
+        "2 cups brown rice (dry)",
+        "1/3 cup Franks RedHot buffalo sauce",
+        "2 tbsp butter, melted",
+        "2 cups broccoli florets",
+        "1/2 cup shredded carrots",
+        "3 tbsp plain Greek yogurt (as ranch substitute)",
+        "1 tbsp lemon juice",
+        "1 tsp garlic powder",
+        "1 tsp dill",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cook rice per package. Steam or roast broccoli.",
+        "Cook chicken in a skillet or bake at 400F until 165F. Shred.",
+        "Toss shredded chicken with buffalo sauce and melted butter.",
+        "Make a quick Greek yogurt ranch: mix yogurt, lemon, garlic powder, dill, salt.",
+        "Assemble bowls: rice, broccoli, carrots, buffalo chicken on top.",
+        "Drizzle with Greek yogurt ranch."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 44,
+      "name": "Baked Cod with Asparagus",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 290, "protein_g": 40, "carbs_g": 8, "fat_g": 10 },
+      "ingredients": [
+        "4 x 6oz cod fillets",
+        "1 bunch asparagus, ends trimmed",
+        "3 tbsp olive oil",
+        "4 garlic cloves, minced",
+        "1 lemon, juiced and zested",
+        "1 tsp paprika",
+        "1/2 tsp garlic powder",
+        "Fresh parsley and dill",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat oven to 400F (205C). Line a baking sheet with foil.",
+        "Toss asparagus with 1.5 tbsp olive oil, salt, and pepper. Spread on baking sheet.",
+        "Pat cod dry. Mix remaining oil, garlic, lemon juice, zest, paprika, and garlic powder.",
+        "Place cod on top of asparagus. Brush generously with lemon-garlic mixture.",
+        "Bake 14-16 min until cod flakes easily and asparagus is tender.",
+        "Garnish with fresh parsley and dill."
+      ],
+      "storage": "Fridge 2-3 days"
+    },
+    {
+      "id": 45,
+      "name": "Protein Pancakes",
+      "category": "Breakfast",
+      "servings": 2,
+      "macros_per_serving": { "calories": 420, "protein_g": 37, "carbs_g": 46, "fat_g": 8 },
+      "ingredients": [
+        "1 cup rolled oats, blended into flour",
+        "2 scoops (60g) vanilla protein powder",
+        "1 cup (226g) 0% Greek yogurt",
+        "2 large eggs",
+        "1/2 tsp baking powder",
+        "1/2 tsp cinnamon",
+        "1/4 cup milk",
+        "1 tsp vanilla extract",
+        "Pinch of salt",
+        "Butter or cooking spray for pan",
+        "Fresh berries and maple syrup to serve"
+      ],
+      "instructions": [
+        "Blend oats into a fine flour.",
+        "Mix oat flour, protein powder, baking powder, cinnamon, and salt.",
+        "Whisk together Greek yogurt, eggs, milk, and vanilla in a separate bowl.",
+        "Combine wet and dry ingredients. Stir until a smooth batter forms. Let rest 2 min.",
+        "Heat a non-stick pan over medium. Add a bit of butter or spray.",
+        "Pour 1/4 cup batter per pancake. Cook 2-3 min until bubbles form on top, then flip and cook 1-2 min.",
+        "Serve with fresh berries and a small drizzle of maple syrup."
+      ],
+      "storage": "Fridge 3 days, reheat in toaster"
+    },
+    {
+      "id": 46,
+      "name": "Spinach & Feta Egg Muffins",
+      "category": "Breakfast",
+      "servings": 6,
+      "macros_per_serving": { "calories": 180, "protein_g": 18, "carbs_g": 4, "fat_g": 10 },
+      "ingredients": [
+        "8 large eggs",
+        "1/2 cup liquid egg whites",
+        "2 cups baby spinach, roughly chopped",
+        "1/3 cup crumbled feta cheese",
+        "1/4 cup diced red bell pepper",
+        "1/4 cup diced red onion",
+        "1/4 cup sun-dried tomatoes, diced",
+        "1/2 tsp garlic powder",
+        "Salt and pepper to taste",
+        "Cooking spray"
+      ],
+      "instructions": [
+        "Preheat oven to 375F (190C). Spray a 12-cup muffin tin generously.",
+        "Whisk eggs and egg whites with garlic powder, salt, and pepper.",
+        "Divide spinach, feta, bell pepper, onion, and sun-dried tomatoes evenly across muffin cups.",
+        "Pour egg mixture over the fillings in each cup, filling about 3/4 full.",
+        "Bake 20-22 min until eggs are fully set and lightly golden on top.",
+        "Cool 5 min before removing. Use a butter knife to loosen edges."
+      ],
+      "storage": "Fridge 5 days / Freezer 2 months"
+    },
+    {
+      "id": 47,
+      "name": "Chicken Apple Sausage Patties",
+      "category": "Breakfast",
+      "servings": 4,
+      "macros_per_serving": { "calories": 240, "protein_g": 28, "carbs_g": 8, "fat_g": 10 },
+      "ingredients": [
+        "1 lb (450g) ground chicken",
+        "1 small apple, peeled and finely grated",
+        "1/4 cup diced onion",
+        "1 tsp dried sage",
+        "1 tsp garlic powder",
+        "1/2 tsp fennel seeds",
+        "1/2 tsp cinnamon",
+        "1/4 tsp red pepper flakes",
+        "Salt and pepper to taste",
+        "1 tbsp avocado oil"
+      ],
+      "instructions": [
+        "Combine ground chicken, grated apple, onion, sage, garlic powder, fennel seeds, cinnamon, red pepper flakes, salt, and pepper.",
+        "Mix well and form into 8 equal patties.",
+        "Heat oil in a skillet over medium heat.",
+        "Cook patties 3-4 min per side until cooked through and golden.",
+        "Serve with eggs or add to a breakfast bowl."
+      ],
+      "storage": "Fridge 4 days / Freezer 2 months"
+    },
+    {
+      "id": 48,
+      "name": "Freezer Breakfast Sandwiches",
+      "category": "Breakfast",
+      "servings": 6,
+      "macros_per_serving": { "calories": 380, "protein_g": 30, "carbs_g": 30, "fat_g": 14 },
+      "ingredients": [
+        "6 whole wheat English muffins",
+        "12 large eggs",
+        "6 slices low-fat cheddar cheese",
+        "6 cooked chicken sausage patties",
+        "2 tbsp milk",
+        "Salt and pepper to taste",
+        "Cooking spray"
+      ],
+      "instructions": [
+        "Preheat oven to 350F (175C). Spray a 9x13 baking dish.",
+        "Whisk eggs with milk, salt, and pepper. Pour into baking dish.",
+        "Bake 20-22 min until fully set. Cut into 6 equal portions.",
+        "Toast English muffins.",
+        "Layer each muffin with egg portion, cheese slice, and chicken sausage patty.",
+        "Wrap tightly in foil. Refrigerate up to 5 days or freeze up to 2 months.",
+        "To reheat from frozen: remove foil, wrap in paper towel, microwave 2-3 min."
+      ],
+      "storage": "Fridge 5 days / Freezer 2 months"
+    },
+    {
+      "id": 49,
+      "name": "Smoked Salmon Breakfast Bowl",
+      "category": "Breakfast",
+      "servings": 2,
+      "macros_per_serving": { "calories": 360, "protein_g": 30, "carbs_g": 28, "fat_g": 14 },
+      "ingredients": [
+        "4oz smoked salmon",
+        "2 medium potatoes or sweet potatoes, diced and roasted",
+        "4 large eggs, poached or hard boiled",
+        "2 cups mixed greens or arugula",
+        "1 avocado, sliced",
+        "2 tbsp capers",
+        "2 tbsp red onion, thinly sliced",
+        "1 tbsp olive oil",
+        "1 tbsp lemon juice",
+        "Everything bagel seasoning",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Roast diced potatoes with olive oil, salt, and pepper at 425F for 20-25 min.",
+        "Prepare eggs to preference (poached or hard boiled).",
+        "Arrange greens in 2 bowls. Top with roasted potatoes, smoked salmon, eggs, and avocado.",
+        "Scatter capers and red onion over the bowls.",
+        "Drizzle with lemon juice. Sprinkle everything bagel seasoning."
+      ],
+      "storage": "Prep components separately, store up to 3 days"
+    },
+    {
+      "id": 50,
+      "name": "Cottage Cheese Scrambled Eggs",
+      "category": "Breakfast",
+      "servings": 1,
+      "macros_per_serving": { "calories": 310, "protein_g": 34, "carbs_g": 5, "fat_g": 16 },
+      "ingredients": [
+        "3 large eggs",
+        "1/3 cup low-fat cottage cheese",
+        "1 tbsp chives or green onion, chopped",
+        "1 tsp butter",
+        "Salt and pepper to taste",
+        "Optional: hot sauce, everything bagel seasoning"
+      ],
+      "instructions": [
+        "Whisk eggs and cottage cheese together until combined. Season with salt and pepper.",
+        "Heat butter in a non-stick pan over low-medium heat.",
+        "Pour in egg-cottage cheese mixture.",
+        "Slowly fold eggs from the outside toward the center using a spatula. Cook low and slow 3-5 min.",
+        "Remove from heat while still slightly wet. Residual heat will finish cooking.",
+        "Top with chives and optional hot sauce."
+      ],
+      "storage": "Best eaten fresh"
+    },
+    {
+      "id": 51,
+      "name": "Ground Beef & Rice Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 470, "protein_g": 38, "carbs_g": 44, "fat_g": 14 },
+      "ingredients": [
+        "1.5 lbs (680g) lean ground beef 90/10",
+        "2 cups jasmine rice (dry)",
+        "2 cups steamed broccoli",
+        "3 garlic cloves, minced",
+        "2 tbsp low-sodium soy sauce",
+        "1 tbsp Worcestershire sauce",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "1/2 tsp black pepper",
+        "1 tbsp avocado oil",
+        "Green onions and sesame seeds for topping"
+      ],
+      "instructions": [
+        "Cook rice per package instructions.",
+        "Heat oil in a skillet over medium-high. Add ground beef, cook until browned about 8 min.",
+        "Add garlic, cook 1 min. Season with soy sauce, Worcestershire, garlic powder, onion powder, and pepper.",
+        "Stir and cook 2 more min until fully seasoned.",
+        "Serve over rice with steamed broccoli. Top with green onions and sesame seeds."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 52,
+      "name": "Asian Chicken Salad",
+      "category": "Lunch",
+      "servings": 4,
+      "macros_per_serving": { "calories": 380, "protein_g": 38, "carbs_g": 20, "fat_g": 16 },
+      "ingredients": [
+        "2 lbs (900g) cooked and shredded chicken breast",
+        "1 bag (14oz) coleslaw mix",
+        "1 cup shredded purple cabbage",
+        "1/2 cup shredded carrots",
+        "3 green onion stalks, sliced",
+        "1/4 cup sliced almonds",
+        "2 tbsp sesame seeds",
+        "Dressing: 3 tbsp soy sauce, 2 tbsp rice vinegar, 1 tbsp sesame oil, 1 tbsp honey, 1 tsp ginger, 1 tsp garlic"
+      ],
+      "instructions": [
+        "Whisk together all dressing ingredients until combined.",
+        "In a large bowl combine coleslaw mix, purple cabbage, carrots, and green onions.",
+        "Add shredded chicken and toss with dressing.",
+        "Top with sliced almonds and sesame seeds just before serving to keep crunch.",
+        "Divide into 4 containers. Store dressing separately if prepping ahead."
+      ],
+      "storage": "Fridge 3 days, dressing separately 1 week"
+    },
+    {
+      "id": 53,
+      "name": "Pulled Chicken Sweet Potatoes",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 430, "protein_g": 40, "carbs_g": 44, "fat_g": 8 },
+      "ingredients": [
+        "2 lbs (900g) chicken breast",
+        "4 medium sweet potatoes",
+        "1/3 cup low-sugar BBQ sauce",
+        "1 tsp smoked paprika",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "Salt and pepper",
+        "Toppings: 3 tbsp Greek yogurt, 2 tbsp green onions, shredded cheese"
+      ],
+      "instructions": [
+        "Bake or microwave sweet potatoes until soft throughout.",
+        "Season chicken with paprika, garlic powder, onion powder, salt, and pepper. Bake at 400F 20-22 min.",
+        "Shred chicken with two forks. Toss with BBQ sauce.",
+        "Cut each sweet potato open. Fluff with a fork.",
+        "Load each potato with pulled chicken, a dollop of Greek yogurt, green onions, and cheese."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 54,
+      "name": "Shrimp Taco Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 400, "protein_g": 34, "carbs_g": 42, "fat_g": 10 },
+      "ingredients": [
+        "1.5 lbs (680g) large shrimp, peeled and deveined",
+        "2 cups cilantro-lime rice",
+        "2 cups shredded cabbage",
+        "1 cup mango salsa or pico de gallo",
+        "1 avocado, diced",
+        "2 tbsp taco or fajita seasoning",
+        "1 tbsp avocado oil",
+        "Lime juice to taste",
+        "Fresh cilantro"
+      ],
+      "instructions": [
+        "Toss shrimp with taco seasoning. Heat oil in a skillet, cook shrimp 1-2 min per side until pink.",
+        "Assemble bowls: cilantro-lime rice, shredded cabbage, shrimp, mango salsa, diced avocado.",
+        "Squeeze lime juice over top. Garnish with fresh cilantro."
+      ],
+      "storage": "Fridge 3 days (add avocado fresh)"
+    },
+    {
+      "id": 55,
+      "name": "Chicken Shawarma Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 460, "protein_g": 46, "carbs_g": 36, "fat_g": 13 },
+      "ingredients": [
+        "2 lbs (900g) boneless skinless chicken thighs",
+        "2 cups cooked basmati rice or quinoa",
+        "1 cup cucumber, diced",
+        "1 cup cherry tomatoes, halved",
+        "1/2 cup red onion, thinly sliced",
+        "1/4 cup fresh parsley, chopped",
+        "Marinade: 3 tbsp olive oil, 3 garlic cloves minced, 2 tsp cumin, 2 tsp paprika, 1 tsp turmeric, 1 tsp cinnamon, 1/2 tsp cayenne, salt, lemon juice",
+        "Tahini sauce: 3 tbsp tahini, 2 tbsp lemon juice, 1 tbsp water, 1 garlic clove, salt"
+      ],
+      "instructions": [
+        "Combine marinade ingredients. Coat chicken and refrigerate at least 2 hours or overnight.",
+        "Cook chicken in a hot skillet over medium-high 6-7 min per side until 165F. Rest then slice thin.",
+        "Make tahini sauce by blending all sauce ingredients until smooth.",
+        "Assemble bowls: rice or quinoa, cucumber, tomatoes, red onion, parsley, and chicken.",
+        "Drizzle with tahini sauce."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 56,
+      "name": "Egg Salad Lettuce Cups",
+      "category": "Lunch/Snack",
+      "servings": 3,
+      "macros_per_serving": { "calories": 280, "protein_g": 22, "carbs_g": 6, "fat_g": 18 },
+      "ingredients": [
+        "8 hard-boiled eggs",
+        "3 tbsp plain Greek yogurt",
+        "1 tbsp Dijon mustard",
+        "2 tbsp red onion, finely diced",
+        "2 tbsp celery, finely diced",
+        "1 tbsp fresh dill or chives",
+        "1 tsp lemon juice",
+        "Salt and pepper to taste",
+        "Romaine or butter lettuce leaves for serving",
+        "Paprika for garnish"
+      ],
+      "instructions": [
+        "Peel and chop hard-boiled eggs. Set aside.",
+        "Mix Greek yogurt, mustard, red onion, celery, dill, and lemon juice.",
+        "Fold in chopped eggs gently. Season with salt and pepper.",
+        "Spoon egg salad into lettuce cups.",
+        "Dust with paprika before serving."
+      ],
+      "storage": "Egg salad fridge 4 days. Fill cups just before eating."
+    },
+    {
+      "id": 57,
+      "name": "Turkey Lettuce Wraps",
+      "category": "Lunch",
+      "servings": 4,
+      "macros_per_serving": { "calories": 320, "protein_g": 34, "carbs_g": 16, "fat_g": 12 },
+      "ingredients": [
+        "1.5 lbs (680g) lean ground turkey",
+        "8-10 large butter or romaine lettuce leaves",
+        "1 cup water chestnuts, drained and diced",
+        "1/2 cup shredded carrots",
+        "3 garlic cloves, minced",
+        "2 tbsp hoisin sauce",
+        "2 tbsp soy sauce",
+        "1 tsp sesame oil",
+        "1 tsp fresh ginger",
+        "1 tbsp rice vinegar",
+        "Green onions and sesame seeds for garnish",
+        "1 tbsp avocado oil"
+      ],
+      "instructions": [
+        "Heat oil in a skillet over medium-high. Cook turkey until browned about 8 min.",
+        "Add garlic and ginger, cook 1 min.",
+        "Add water chestnuts and carrots, stir 2 min.",
+        "Pour in hoisin sauce, soy sauce, sesame oil, and rice vinegar. Stir to coat.",
+        "Cook 2-3 min until sauce is absorbed.",
+        "Spoon turkey mixture into lettuce leaves. Garnish with green onions and sesame seeds."
+      ],
+      "storage": "Turkey filling fridge 4 days. Fill leaves fresh."
+    },
+    {
+      "id": 58,
+      "name": "Tuna Pasta Salad",
+      "category": "Lunch",
+      "servings": 4,
+      "macros_per_serving": { "calories": 410, "protein_g": 36, "carbs_g": 44, "fat_g": 8 },
+      "ingredients": [
+        "3 cans (5oz each) albacore tuna in water, drained",
+        "8oz whole wheat rotini or penne, cooked and cooled",
+        "1/2 cup celery, diced",
+        "1/2 cup red onion, finely diced",
+        "1/2 cup frozen peas, thawed",
+        "1/4 cup red bell pepper, diced",
+        "3 tbsp plain Greek yogurt",
+        "2 tbsp light mayo",
+        "1 tbsp Dijon mustard",
+        "1 tbsp lemon juice",
+        "1 tsp dill",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cook pasta al dente, rinse with cold water, drain well.",
+        "Mix Greek yogurt, mayo, mustard, lemon juice, and dill to make dressing.",
+        "In a large bowl combine pasta, tuna, celery, red onion, peas, and bell pepper.",
+        "Pour dressing over salad and toss well.",
+        "Season with salt and pepper. Divide into 4 containers."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 59,
+      "name": "Steak & Veggie Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 500, "protein_g": 44, "carbs_g": 38, "fat_g": 18 },
+      "ingredients": [
+        "1.5 lbs (680g) flank or skirt steak",
+        "2 cups brown rice (dry)",
+        "1 cup broccoli florets",
+        "1 cup cherry tomatoes, halved",
+        "1 avocado, sliced",
+        "Marinade: 3 tbsp soy sauce, 2 tbsp olive oil, 2 tbsp lime juice, 2 garlic cloves, 1 tsp cumin, 1 tsp chili powder",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Marinate steak in soy sauce, olive oil, lime juice, garlic, cumin, and chili powder for at least 30 min.",
+        "Cook rice per package.",
+        "Grill or sear steak over high heat 3-4 min per side for medium. Rest 5-10 min then slice thin against the grain.",
+        "Roast or saute broccoli until tender-crisp.",
+        "Assemble bowls: rice, broccoli, sliced steak, cherry tomatoes, avocado.",
+        "Drizzle extra marinade on top if desired."
+      ],
+      "storage": "Fridge 4 days (add avocado fresh)"
+    },
+    {
+      "id": 60,
+      "name": "Salmon Caesar Wrap",
+      "category": "Lunch",
+      "servings": 2,
+      "macros_per_serving": { "calories": 420, "protein_g": 38, "carbs_g": 32, "fat_g": 14 },
+      "ingredients": [
+        "2 cooked salmon fillets (6oz each), flaked",
+        "2 large whole wheat tortillas",
+        "2 cups chopped romaine lettuce",
+        "1/4 cup grated Parmesan",
+        "1/4 cup Caesar dressing (light)",
+        "1/2 cup croutons",
+        "1 lemon, for squeezing",
+        "Black pepper to taste"
+      ],
+      "instructions": [
+        "Mix chopped romaine with light Caesar dressing and Parmesan.",
+        "Lay tortillas flat. Add dressed romaine to each.",
+        "Place flaked salmon on top. Add croutons.",
+        "Squeeze lemon over filling. Add black pepper.",
+        "Roll tightly and cut in half."
+      ],
+      "storage": "Fridge 2 days, best eaten fresh"
+    },
+    {
+      "id": 61,
+      "name": "Protein Chia Pudding",
+      "category": "Breakfast/Snack",
+      "servings": 2,
+      "macros_per_serving": { "calories": 320, "protein_g": 30, "carbs_g": 28, "fat_g": 9 },
+      "ingredients": [
+        "1/3 cup chia seeds",
+        "1.5 cups unsweetened almond milk or milk",
+        "1 scoop (30g) vanilla protein powder",
+        "1 tbsp honey or maple syrup",
+        "1/2 tsp vanilla extract",
+        "1/2 cup Greek yogurt stirred in after setting",
+        "Fresh berries for topping"
+      ],
+      "instructions": [
+        "Whisk protein powder into milk until fully dissolved.",
+        "Add chia seeds, honey, and vanilla. Whisk well.",
+        "Let sit 5 min then stir again to prevent clumping.",
+        "Cover and refrigerate overnight or at least 4 hours.",
+        "Before serving stir in Greek yogurt for extra protein and creaminess.",
+        "Top with fresh berries."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 62,
+      "name": "Greek Yogurt Parfait",
+      "category": "Breakfast/Snack",
+      "servings": 1,
+      "macros_per_serving": { "calories": 360, "protein_g": 32, "carbs_g": 40, "fat_g": 6 },
+      "ingredients": [
+        "1 cup (226g) 0% plain Greek yogurt",
+        "1/2 cup granola (low sugar)",
+        "1/2 cup mixed berries (blueberries, strawberries)",
+        "1 tbsp honey",
+        "1 tbsp chia seeds",
+        "Optional: 1 scoop vanilla protein powder mixed into yogurt"
+      ],
+      "instructions": [
+        "If using protein powder mix it into Greek yogurt until smooth.",
+        "Spoon half the yogurt into a glass or container.",
+        "Add half the granola and half the berries.",
+        "Repeat layers with remaining yogurt, granola, and berries.",
+        "Drizzle honey on top. Sprinkle chia seeds.",
+        "If meal prepping: store granola separately to keep crunchy, assemble when ready to eat."
+      ],
+      "storage": "Yogurt base fridge 3 days, granola separate"
+    },
+    {
+      "id": 63,
+      "name": "Edamame & Sea Salt",
+      "category": "Snack",
+      "servings": 2,
+      "macros_per_serving": { "calories": 180, "protein_g": 16, "carbs_g": 14, "fat_g": 7 },
+      "ingredients": [
+        "2 cups frozen edamame in pods",
+        "1 tsp flaky sea salt",
+        "Optional: 1/2 tsp garlic powder, chili flakes, or sesame oil drizzle"
+      ],
+      "instructions": [
+        "Boil a pot of salted water. Add frozen edamame and cook 3-5 min.",
+        "Drain and pat dry.",
+        "Toss with flaky sea salt and optional seasonings.",
+        "Serve warm or chilled."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 64,
+      "name": "Hard Boiled Eggs & Hummus Box",
+      "category": "Snack",
+      "servings": 2,
+      "macros_per_serving": { "calories": 280, "protein_g": 22, "carbs_g": 14, "fat_g": 16 },
+      "ingredients": [
+        "4 large hard-boiled eggs",
+        "4 tbsp hummus",
+        "1 cup cucumber slices",
+        "1 cup cherry tomatoes",
+        "8 whole grain crackers or rice cakes",
+        "Salt, pepper, paprika for eggs"
+      ],
+      "instructions": [
+        "Hard boil eggs: place in cold water, bring to boil, cook 10-12 min, transfer to ice bath, peel.",
+        "Halve eggs and dust with paprika.",
+        "Pack into a container with hummus, cucumber, tomatoes, and crackers.",
+        "Season as desired."
+      ],
+      "storage": "Fridge 5 days (unpeeled eggs last longer)"
+    },
+    {
+      "id": 65,
+      "name": "Tuna Rice Cakes",
+      "category": "Snack",
+      "servings": 2,
+      "macros_per_serving": { "calories": 220, "protein_g": 24, "carbs_g": 18, "fat_g": 4 },
+      "ingredients": [
+        "2 cans (5oz) albacore tuna in water, drained",
+        "6 plain rice cakes",
+        "2 tbsp plain Greek yogurt",
+        "1 tsp Dijon mustard",
+        "1 tsp lemon juice",
+        "1 tbsp chopped chives or green onion",
+        "Salt, pepper, paprika to taste",
+        "Optional: sliced cucumber or avocado on top"
+      ],
+      "instructions": [
+        "Mix tuna with Greek yogurt, mustard, lemon juice, chives, salt, and pepper.",
+        "Spread tuna mixture generously on each rice cake.",
+        "Top with cucumber or avocado if desired.",
+        "Dust with paprika."
+      ],
+      "storage": "Tuna mixture fridge 3 days, top rice cakes fresh"
+    },
+    {
+      "id": 66,
+      "name": "Protein Peanut Butter Balls",
+      "category": "Snack",
+      "servings": 6,
+      "macros_per_serving": { "calories": 210, "protein_g": 14, "carbs_g": 18, "fat_g": 8 },
+      "ingredients": [
+        "1 cup rolled oats",
+        "2 scoops (60g) vanilla or chocolate protein powder",
+        "1/2 cup natural peanut butter",
+        "3 tbsp honey",
+        "2 tbsp mini chocolate chips",
+        "1 tsp vanilla extract",
+        "Pinch of salt",
+        "2-4 tbsp milk as needed"
+      ],
+      "instructions": [
+        "Mix oats, protein powder, peanut butter, honey, vanilla, and salt in a bowl.",
+        "Add chocolate chips and stir.",
+        "Add milk one tbsp at a time until dough holds together.",
+        "Roll into 18-20 equal balls.",
+        "Refrigerate at least 30 min before eating."
+      ],
+      "storage": "Fridge 1 week / Freezer 3 months"
+    },
+    {
+      "id": 67,
+      "name": "String Cheese & Turkey Roll-Ups",
+      "category": "Snack",
+      "servings": 2,
+      "macros_per_serving": { "calories": 200, "protein_g": 22, "carbs_g": 2, "fat_g": 10 },
+      "ingredients": [
+        "4 sticks low-fat string cheese",
+        "8 slices deli turkey breast",
+        "8 pickle spears or sliced cucumber (optional)",
+        "Mustard for dipping (optional)"
+      ],
+      "instructions": [
+        "Lay 2 slices of turkey flat on a clean surface.",
+        "Place 1 string cheese stick at one end.",
+        "Add a pickle spear or cucumber slice alongside the cheese.",
+        "Roll turkey tightly around the cheese and pickle.",
+        "Secure with a toothpick if needed.",
+        "Repeat for remaining roll-ups. Serve with mustard for dipping."
+      ],
+      "storage": "Fridge 3 days"
+    },
+    {
+      "id": 68,
+      "name": "Cottage Cheese Veggie Bowl",
+      "category": "Snack",
+      "servings": 1,
+      "macros_per_serving": { "calories": 220, "protein_g": 26, "carbs_g": 14, "fat_g": 5 },
+      "ingredients": [
+        "1 cup low-fat cottage cheese",
+        "1/2 cup cherry tomatoes, halved",
+        "1/4 cup cucumber, diced",
+        "1/4 cup diced bell pepper",
+        "1 tbsp fresh chives or green onion",
+        "Everything bagel seasoning",
+        "Drizzle of olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Spoon cottage cheese into a bowl.",
+        "Arrange tomatoes, cucumber, and bell pepper around or on top.",
+        "Sprinkle with green onion and everything bagel seasoning.",
+        "Drizzle with olive oil. Season with salt and pepper."
+      ],
+      "storage": "Best eaten fresh, prep components separately for 4 days"
+    },
+    {
+      "id": 69,
+      "name": "Chocolate Protein Shake",
+      "category": "Snack",
+      "servings": 1,
+      "macros_per_serving": { "calories": 350, "protein_g": 38, "carbs_g": 32, "fat_g": 7 },
+      "ingredients": [
+        "1 scoop (30g) chocolate protein powder",
+        "1 cup milk",
+        "1/2 frozen banana",
+        "1 tbsp natural peanut butter",
+        "1 tbsp cocoa powder",
+        "1 cup ice",
+        "Optional: 1 handful spinach (flavor undetectable)"
+      ],
+      "instructions": [
+        "Add all ingredients to a blender.",
+        "Blend on high until completely smooth.",
+        "Adjust thickness with more milk or ice.",
+        "Pour and serve immediately."
+      ],
+      "storage": "Best drunk immediately"
+    },
+    {
+      "id": 70,
+      "name": "Peanut Butter Protein Smoothie",
+      "category": "Breakfast/Snack",
+      "servings": 1,
+      "macros_per_serving": { "calories": 420, "protein_g": 40, "carbs_g": 38, "fat_g": 12 },
+      "ingredients": [
+        "1 scoop (30g) vanilla protein powder",
+        "1 cup unsweetened almond milk",
+        "1 frozen banana",
+        "2 tbsp natural peanut butter",
+        "1/2 cup 0% Greek yogurt",
+        "1 tbsp flax seeds",
+        "1 cup ice",
+        "1/2 tsp cinnamon"
+      ],
+      "instructions": [
+        "Add all ingredients to a blender.",
+        "Blend until smooth.",
+        "Taste and adjust sweetness or thickness as needed.",
+        "Drink immediately or store in fridge up to 24 hours with a shake before drinking."
+      ],
+      "storage": "Best drunk immediately"
+    },
+    {
+      "id": 71,
+      "name": "Smoked Salmon & Cucumber Bites",
+      "category": "Snack",
+      "servings": 2,
+      "macros_per_serving": { "calories": 180, "protein_g": 18, "carbs_g": 6, "fat_g": 8 },
+      "ingredients": [
+        "4oz smoked salmon",
+        "1 large cucumber, sliced into rounds",
+        "1/4 cup whipped light cream cheese",
+        "1 tbsp capers",
+        "1 tbsp fresh dill",
+        "1 tbsp red onion, very finely diced",
+        "Lemon zest",
+        "Black pepper to taste"
+      ],
+      "instructions": [
+        "Slice cucumber into 1/2 inch rounds and pat dry.",
+        "Spread a small amount of cream cheese on each round.",
+        "Top with a small piece of smoked salmon.",
+        "Garnish with a caper, a sprig of dill, a little red onion, and lemon zest.",
+        "Finish with black pepper."
+      ],
+      "storage": "Assemble day-of, components fridge 3-4 days"
+    },
+    {
+      "id": 72,
+      "name": "Banana Protein Muffins",
+      "category": "Breakfast/Snack",
+      "servings": 6,
+      "macros_per_serving": { "calories": 220, "protein_g": 18, "carbs_g": 24, "fat_g": 5 },
+      "ingredients": [
+        "2 ripe bananas, mashed",
+        "2 scoops (60g) vanilla protein powder",
+        "1/2 cup rolled oats, blended into flour",
+        "2 large eggs",
+        "1/4 cup 0% Greek yogurt",
+        "1 tsp baking powder",
+        "1 tsp cinnamon",
+        "1 tsp vanilla extract",
+        "2 tbsp honey",
+        "Pinch of salt",
+        "Optional: chocolate chips or blueberries to stir in"
+      ],
+      "instructions": [
+        "Preheat oven to 350F (175C). Line a muffin tin with 12 cups.",
+        "Mix mashed banana, eggs, Greek yogurt, honey, and vanilla together.",
+        "Add oat flour, protein powder, baking powder, cinnamon, and salt. Mix until combined.",
+        "Fold in chocolate chips or blueberries if using.",
+        "Fill muffin cups about 3/4 full.",
+        "Bake 18-20 min until a toothpick comes out clean.",
+        "Cool 10 min before removing."
+      ],
+      "storage": "Fridge 5 days / Freezer 2 months"
+    },
+    {
+      "id": 73,
+      "name": "Cottage Cheese Toast",
+      "category": "Breakfast/Snack",
+      "servings": 1,
+      "macros_per_serving": { "calories": 290, "protein_g": 24, "carbs_g": 28, "fat_g": 8 },
+      "ingredients": [
+        "2 slices whole grain bread, toasted",
+        "1/2 cup low-fat cottage cheese",
+        "1/4 avocado, sliced",
+        "2 eggs, fried or poached",
+        "Everything bagel seasoning",
+        "Red pepper flakes",
+        "Drizzle of hot sauce optional"
+      ],
+      "instructions": [
+        "Toast bread to preferred doneness.",
+        "Spread cottage cheese generously on each slice.",
+        "Top with avocado slices.",
+        "Add fried or poached eggs on top.",
+        "Sprinkle everything bagel seasoning and red pepper flakes.",
+        "Add hot sauce if desired."
+      ],
+      "storage": "Best eaten fresh"
+    },
+    {
+      "id": 74,
+      "name": "Shrimp Cocktail",
+      "category": "Snack",
+      "servings": 2,
+      "macros_per_serving": { "calories": 160, "protein_g": 24, "carbs_g": 10, "fat_g": 2 },
+      "ingredients": [
+        "1 lb (450g) large shrimp, peeled and deveined tails on",
+        "Cocktail sauce: 1/2 cup ketchup, 1 tbsp prepared horseradish, 1 tsp lemon juice, dash Worcestershire, hot sauce to taste",
+        "Lemon wedges",
+        "Ice for serving"
+      ],
+      "instructions": [
+        "Bring salted water to a boil. Add shrimp and cook 2-3 min until pink and curled.",
+        "Transfer immediately to an ice bath to stop cooking.",
+        "Drain and refrigerate.",
+        "Make cocktail sauce by mixing all sauce ingredients.",
+        "Arrange chilled shrimp on ice with cocktail sauce and lemon wedges."
+      ],
+      "storage": "Cooked shrimp fridge 3 days"
+    },
+    {
+      "id": 75,
+      "name": "Turkey Roll-Ups with Avocado",
+      "category": "Snack",
+      "servings": 2,
+      "macros_per_serving": { "calories": 240, "protein_g": 22, "carbs_g": 8, "fat_g": 14 },
+      "ingredients": [
+        "8 slices deli turkey breast (low sodium)",
+        "1 avocado, sliced",
+        "4 leaves romaine lettuce",
+        "1/4 cup shredded carrots",
+        "2 tbsp hummus",
+        "1 tsp lemon juice",
+        "Salt, pepper, and red pepper flakes to taste"
+      ],
+      "instructions": [
+        "Lay 2 slices of turkey on a flat surface.",
+        "Spread a thin layer of hummus on the turkey.",
+        "Place a small romaine leaf, 2-3 avocado slices, and shredded carrots at one end.",
+        "Squeeze a little lemon juice over the avocado. Season with salt and pepper.",
+        "Roll tightly. Secure with a toothpick.",
+        "Repeat for all rolls."
+      ],
+      "storage": "Fridge 2 days"
+    },
+    {
+      "id": 76,
+      "name": "High-Protein Breakfast Burrito",
+      "category": "Breakfast",
+      "servings": 4,
+      "macros_per_serving": { "calories": 450, "protein_g": 38, "carbs_g": 36, "fat_g": 16 },
+      "ingredients": [
+        "8 large eggs",
+        "1/2 cup liquid egg whites",
+        "1/2 lb (225g) lean ground turkey, cooked",
+        "1 can (15oz) black beans, drained and rinsed",
+        "1/2 cup shredded cheddar cheese",
+        "1/2 cup salsa",
+        "4 large whole wheat tortillas",
+        "1/2 cup diced bell pepper",
+        "1/4 cup diced onion",
+        "1 tsp cumin",
+        "Salt and pepper",
+        "Cooking spray"
+      ],
+      "instructions": [
+        "Whisk eggs and egg whites with cumin, salt, and pepper.",
+        "Spray a skillet, saute pepper and onion 3 min. Add eggs and scramble until cooked.",
+        "Warm tortillas.",
+        "Layer each with: scrambled eggs, turkey, black beans, cheese, and salsa.",
+        "Roll burritos tightly, tucking in sides.",
+        "Wrap in foil. Refrigerate or freeze."
+      ],
+      "storage": "Fridge 4 days / Freezer 2 months (thaw overnight then reheat)"
+    },
+    {
+      "id": 77,
+      "name": "Chicken & Black Bean Quesadilla",
+      "category": "Lunch",
+      "servings": 4,
+      "macros_per_serving": { "calories": 440, "protein_g": 40, "carbs_g": 38, "fat_g": 14 },
+      "ingredients": [
+        "2 cups cooked and shredded chicken breast",
+        "1 can (15oz) black beans, drained and rinsed",
+        "1 cup corn",
+        "1 cup shredded Mexican blend cheese",
+        "4 large whole wheat tortillas",
+        "1/2 cup salsa",
+        "1 tsp cumin",
+        "1 tsp chili powder",
+        "1 tbsp avocado oil",
+        "Greek yogurt and extra salsa for serving"
+      ],
+      "instructions": [
+        "Mix chicken with black beans, corn, cumin, and chili powder.",
+        "Lay 2 tortillas flat. Top half of each with chicken mixture and shredded cheese.",
+        "Fold tortillas in half.",
+        "Heat oil in a large skillet over medium. Cook quesadillas 2-3 min per side until golden and cheese melts.",
+        "Cut into wedges. Serve with Greek yogurt and salsa."
+      ],
+      "storage": "Fridge 3 days, reheat in skillet or oven to restore crispness"
+    },
+    {
+      "id": 78,
+      "name": "Ground Turkey Breakfast Hash",
+      "category": "Breakfast",
+      "servings": 4,
+      "macros_per_serving": { "calories": 380, "protein_g": 32, "carbs_g": 30, "fat_g": 13 },
+      "ingredients": [
+        "1 lb (450g) lean ground turkey",
+        "3 medium sweet potatoes, peeled and small-diced",
+        "1 cup diced bell pepper",
+        "1/2 cup diced onion",
+        "3 garlic cloves, minced",
+        "4 large eggs",
+        "1 tsp cumin",
+        "1 tsp smoked paprika",
+        "1/2 tsp chili powder",
+        "Salt and pepper",
+        "2 tbsp avocado oil",
+        "Fresh chives for garnish"
+      ],
+      "instructions": [
+        "Heat 1 tbsp oil in a large oven-safe skillet over medium-high. Add sweet potatoes, cook 8-10 min until tender.",
+        "Add remaining oil, cook onion and pepper 3-4 min. Add garlic 1 min.",
+        "Add ground turkey, cook until browned, add spices, stir to combine.",
+        "Make 4 wells in the hash and crack an egg into each well.",
+        "Transfer to 375F oven (if skillet is not oven-safe, top each egg with a lid and cook on stove over low).",
+        "Bake 10-12 min until eggs are set to your liking.",
+        "Garnish with chives."
+      ],
+      "storage": "Fridge 4 days (eggs best cooked fresh each time)"
+    },
+    {
+      "id": 79,
+      "name": "Lemon Herb Chicken Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 430, "protein_g": 44, "carbs_g": 36, "fat_g": 11 },
+      "ingredients": [
+        "2 lbs (900g) boneless skinless chicken breast",
+        "2 cups quinoa (dry)",
+        "2 cups roasted asparagus",
+        "1 cup cherry tomatoes, roasted",
+        "1/4 cup fresh parsley",
+        "3 lemons (juice and zest)",
+        "4 garlic cloves, minced",
+        "3 tbsp olive oil",
+        "1 tsp dried oregano",
+        "1 tsp dried thyme",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Cook quinoa per package instructions.",
+        "Marinate chicken in lemon juice, zest, garlic, olive oil, oregano, thyme, salt, and pepper for 30 min.",
+        "Grill or bake chicken at 400F for 20-22 min until 165F. Rest and slice.",
+        "Roast asparagus and cherry tomatoes at 425F for 12-15 min.",
+        "Assemble bowls: quinoa, asparagus, roasted tomatoes, sliced chicken.",
+        "Garnish with fresh parsley and lemon juice."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 80,
+      "name": "Baked Turkey Meatloaf",
+      "category": "Dinner",
+      "servings": 6,
+      "macros_per_serving": { "calories": 330, "protein_g": 36, "carbs_g": 14, "fat_g": 12 },
+      "ingredients": [
+        "2 lbs (900g) lean ground turkey",
+        "1/3 cup breadcrumbs",
+        "1/2 cup diced onion",
+        "3 garlic cloves, minced",
+        "2 eggs",
+        "1/4 cup milk",
+        "2 tbsp Worcestershire sauce",
+        "1 tsp Italian seasoning",
+        "Salt and pepper to taste",
+        "Glaze: 1/4 cup ketchup + 1 tbsp honey + 1 tsp Dijon"
+      ],
+      "instructions": [
+        "Preheat oven to 375F (190C). Line a loaf pan with parchment.",
+        "Mix turkey, breadcrumbs, onion, garlic, eggs, milk, Worcestershire, Italian seasoning, salt, and pepper.",
+        "Transfer to loaf pan and shape into a loaf.",
+        "Mix glaze and spread over top.",
+        "Bake 55-65 min until internal temp is 165F.",
+        "Rest 10 min before slicing."
+      ],
+      "storage": "Fridge 4 days / Freezer 3 months"
+    },
+    {
+      "id": 81,
+      "name": "Chicken Stir Fry with Cashews",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 460, "protein_g": 42, "carbs_g": 38, "fat_g": 16 },
+      "ingredients": [
+        "2 lbs (900g) chicken breast, diced",
+        "1/2 cup raw cashews",
+        "2 cups broccoli florets",
+        "1 red bell pepper, sliced",
+        "1 cup snap peas",
+        "2 cups jasmine rice (dry)",
+        "3 tbsp low-sodium soy sauce",
+        "1 tbsp hoisin sauce",
+        "1 tbsp oyster sauce",
+        "1 tsp sesame oil",
+        "3 garlic cloves, minced",
+        "1 tsp fresh ginger",
+        "2 tbsp avocado oil"
+      ],
+      "instructions": [
+        "Cook rice per package instructions.",
+        "Mix soy sauce, hoisin, oyster sauce, and sesame oil into a sauce.",
+        "Toast cashews in a dry wok 2-3 min until golden. Remove.",
+        "Heat oil over high heat. Cook chicken 5-6 min until golden. Remove.",
+        "Stir fry broccoli, pepper, and snap peas 3-4 min. Add garlic and ginger 30 sec.",
+        "Return chicken to wok. Pour sauce over and toss 1-2 min.",
+        "Top with toasted cashews. Serve over rice."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 82,
+      "name": "Breakfast Egg Muffins with Ham",
+      "category": "Breakfast",
+      "servings": 6,
+      "macros_per_serving": { "calories": 200, "protein_g": 22, "carbs_g": 3, "fat_g": 10 },
+      "ingredients": [
+        "10 large eggs",
+        "1/2 cup liquid egg whites",
+        "1 cup diced lean ham",
+        "1/2 cup shredded cheddar cheese",
+        "1/4 cup diced green onion",
+        "1/4 cup diced red bell pepper",
+        "Salt, pepper, and garlic powder to taste",
+        "Cooking spray"
+      ],
+      "instructions": [
+        "Preheat oven to 375F (190C). Spray a 12-cup muffin tin.",
+        "Whisk eggs and egg whites with salt, pepper, and garlic powder.",
+        "Divide ham, cheese, green onion, and bell pepper evenly into each muffin cup.",
+        "Pour egg mixture over fillings, filling cups about 3/4 full.",
+        "Bake 20-22 min until puffed and set.",
+        "Cool 5 min then remove with a butter knife."
+      ],
+      "storage": "Fridge 5 days / Freezer 2 months"
+    },
+    {
+      "id": 83,
+      "name": "Miso Glazed Cod",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 310, "protein_g": 40, "carbs_g": 14, "fat_g": 8 },
+      "ingredients": [
+        "4 x 6oz cod fillets",
+        "3 tbsp white miso paste",
+        "2 tbsp honey or maple syrup",
+        "1 tbsp rice vinegar",
+        "1 tbsp low-sodium soy sauce",
+        "1 tsp sesame oil",
+        "2 garlic cloves, minced",
+        "Sesame seeds and green onions to garnish",
+        "Steamed bok choy or broccolini for serving"
+      ],
+      "instructions": [
+        "Whisk miso, honey, rice vinegar, soy sauce, sesame oil, and garlic into a glaze.",
+        "Pat cod dry. Coat each fillet with the miso glaze. Marinate 30 min in the fridge.",
+        "Preheat broiler or oven to 425F (220C).",
+        "Line a baking sheet with foil. Place glazed cod on top.",
+        "Bake or broil 10-14 min until fish flakes and glaze is caramelized.",
+        "Garnish with sesame seeds and green onions. Serve with steamed greens."
+      ],
+      "storage": "Fridge 2-3 days"
+    },
+    {
+      "id": 84,
+      "name": "Lentil & Chicken Curry",
+      "category": "Dinner",
+      "servings": 6,
+      "macros_per_serving": { "calories": 410, "protein_g": 40, "carbs_g": 36, "fat_g": 10 },
+      "ingredients": [
+        "1.5 lbs (680g) boneless skinless chicken breast, cubed",
+        "1 cup dry red lentils, rinsed",
+        "1 can (14oz) crushed tomatoes",
+        "1 can (14oz) light coconut milk",
+        "1 large onion, diced",
+        "4 garlic cloves, minced",
+        "1 tbsp fresh ginger",
+        "2 tbsp curry powder",
+        "1 tsp garam masala",
+        "1 tsp turmeric",
+        "1 tbsp avocado oil",
+        "2 cups low-sodium chicken broth",
+        "2 cups baby spinach",
+        "Fresh cilantro and lemon for serving"
+      ],
+      "instructions": [
+        "Heat oil in a large pot over medium. Saute onion 5 min, add garlic and ginger 1 min.",
+        "Add curry powder, garam masala, and turmeric. Cook 1-2 min.",
+        "Add chicken, cook 4-5 min until sealed.",
+        "Add lentils, crushed tomatoes, coconut milk, and broth. Stir well.",
+        "Bring to boil, reduce heat, cover and simmer 25-30 min until lentils are soft.",
+        "Stir in baby spinach until wilted.",
+        "Serve with basmati rice. Garnish with cilantro and lemon."
+      ],
+      "storage": "Fridge 5 days / Freezer 3 months"
+    },
+    {
+      "id": 85,
+      "name": "Smoked Salmon Avocado Toast",
+      "category": "Breakfast",
+      "servings": 2,
+      "macros_per_serving": { "calories": 380, "protein_g": 26, "carbs_g": 28, "fat_g": 18 },
+      "ingredients": [
+        "4oz smoked salmon",
+        "2 slices thick whole grain sourdough bread, toasted",
+        "1 ripe avocado",
+        "2 tbsp whipped cream cheese or Greek yogurt",
+        "1 tbsp capers",
+        "Red onion, thinly sliced",
+        "Fresh dill",
+        "Lemon juice",
+        "Everything bagel seasoning",
+        "Black pepper to taste"
+      ],
+      "instructions": [
+        "Toast bread until golden and sturdy.",
+        "Mash avocado with a pinch of salt and lemon juice.",
+        "Spread cream cheese or Greek yogurt on each slice.",
+        "Top with mashed avocado.",
+        "Lay smoked salmon over the avocado.",
+        "Garnish with capers, red onion, fresh dill, everything bagel seasoning, and black pepper."
+      ],
+      "storage": "Best eaten fresh"
+    },
+    {
+      "id": 86,
+      "name": "Chicken Tomato Soup",
+      "category": "Lunch/Dinner",
+      "servings": 6,
+      "macros_per_serving": { "calories": 310, "protein_g": 34, "carbs_g": 20, "fat_g": 8 },
+      "ingredients": [
+        "1.5 lbs (680g) boneless skinless chicken breast",
+        "2 cans (14.5oz each) diced tomatoes",
+        "1 can (28oz) crushed tomatoes",
+        "1 large onion, diced",
+        "4 celery stalks, diced",
+        "3 carrots, diced",
+        "4 garlic cloves, minced",
+        "4 cups low-sodium chicken broth",
+        "1/4 cup light cream or Greek yogurt",
+        "1 tbsp olive oil",
+        "1 tsp Italian seasoning",
+        "1 tsp basil",
+        "Salt and pepper to taste",
+        "Fresh basil for garnish"
+      ],
+      "instructions": [
+        "Heat oil in a large pot. Saute onion, celery, and carrots 5-6 min.",
+        "Add garlic, Italian seasoning, and basil. Cook 1 min.",
+        "Add whole chicken breasts, crushed tomatoes, diced tomatoes, and broth.",
+        "Bring to boil, reduce to simmer, cover and cook 25 min.",
+        "Remove chicken and shred. Return to pot.",
+        "Stir in cream or Greek yogurt. Adjust seasoning.",
+        "Garnish with fresh basil."
+      ],
+      "storage": "Fridge 5 days / Freezer 3 months"
+    },
+    {
+      "id": 87,
+      "name": "Protein Waffle",
+      "category": "Breakfast",
+      "servings": 2,
+      "macros_per_serving": { "calories": 400, "protein_g": 34, "carbs_g": 40, "fat_g": 10 },
+      "ingredients": [
+        "1 cup rolled oats, blended into flour",
+        "2 scoops (60g) vanilla protein powder",
+        "1/2 cup 0% Greek yogurt",
+        "2 large eggs",
+        "1/2 cup milk",
+        "1 tsp baking powder",
+        "1 tsp cinnamon",
+        "1 tsp vanilla extract",
+        "Pinch of salt",
+        "Cooking spray for waffle iron",
+        "Toppings: fresh berries, Greek yogurt, maple syrup"
+      ],
+      "instructions": [
+        "Preheat and spray waffle iron.",
+        "Mix oat flour, protein powder, baking powder, cinnamon, and salt.",
+        "Whisk yogurt, eggs, milk, and vanilla together.",
+        "Combine wet and dry ingredients. Stir until just combined.",
+        "Pour batter into waffle iron (amount per manufacturer instructions).",
+        "Cook until golden and crisp.",
+        "Serve topped with berries, a dollop of Greek yogurt, and a drizzle of maple syrup."
+      ],
+      "storage": "Fridge 3 days / Freezer 2 months. Reheat in toaster."
+    },
+    {
+      "id": 88,
+      "name": "Harissa Chicken & Couscous",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 460, "protein_g": 44, "carbs_g": 42, "fat_g": 12 },
+      "ingredients": [
+        "2 lbs (900g) boneless skinless chicken thighs",
+        "1.5 cups couscous (dry)",
+        "2 tbsp harissa paste",
+        "2 tbsp olive oil",
+        "3 garlic cloves, minced",
+        "1 lemon, juiced",
+        "1 can (15oz) chickpeas, drained and rinsed",
+        "1 cup cherry tomatoes",
+        "1/4 cup fresh mint or parsley",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Mix harissa, olive oil, garlic, lemon juice, salt, and pepper. Coat chicken and marinate 30 min.",
+        "Cook couscous: boil 1.5 cups water, pour over couscous in a bowl, cover and let sit 5 min. Fluff.",
+        "Grill or bake chicken at 400F until 165F. Rest and slice.",
+        "Roast chickpeas and cherry tomatoes at 400F for 15-20 min until caramelized.",
+        "Combine couscous, roasted chickpeas, and cherry tomatoes.",
+        "Plate with sliced harissa chicken on top. Garnish with fresh herbs."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 89,
+      "name": "Egg White Protein Muffins",
+      "category": "Breakfast/Snack",
+      "servings": 6,
+      "macros_per_serving": { "calories": 170, "protein_g": 18, "carbs_g": 16, "fat_g": 4 },
+      "ingredients": [
+        "1.5 cups (360ml) liquid egg whites",
+        "1/2 cup rolled oats, blended into flour",
+        "1 scoop (30g) vanilla protein powder",
+        "2 ripe bananas, mashed",
+        "1 tsp baking powder",
+        "1 tsp cinnamon",
+        "1 tbsp honey",
+        "1 tsp vanilla extract",
+        "Pinch of salt",
+        "Optional: blueberries or chocolate chips to fold in"
+      ],
+      "instructions": [
+        "Preheat oven to 350F (175C). Spray a 12-cup muffin tin.",
+        "Mix mashed banana, egg whites, honey, and vanilla in a bowl.",
+        "Add oat flour, protein powder, baking powder, cinnamon, and salt. Stir to combine.",
+        "Fold in optional add-ins.",
+        "Pour batter into muffin cups about 3/4 full.",
+        "Bake 20-22 min until toothpick comes out clean.",
+        "Cool before removing."
+      ],
+      "storage": "Fridge 5 days / Freezer 2 months"
+    },
+    {
+      "id": 90,
+      "name": "Lean Beef Burger Bowl",
+      "category": "Lunch/Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 490, "protein_g": 42, "carbs_g": 36, "fat_g": 18 },
+      "ingredients": [
+        "1.5 lbs (680g) lean ground beef 90/10",
+        "4 cups chopped romaine lettuce",
+        "1 cup cherry tomatoes, halved",
+        "1/2 cup red onion, diced",
+        "1/2 cup shredded cheddar cheese",
+        "4 dill pickles, sliced",
+        "2 cups cooked and cooled fries-style roasted sweet potato",
+        "Burger sauce: 2 tbsp Greek yogurt + 1 tbsp ketchup + 1 tsp mustard + 1 tsp pickle juice",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Season ground beef with salt and pepper. Form into 4 equal patties.",
+        "Grill or cook in a skillet 3-4 min per side until cooked through.",
+        "Break or chop cooked burgers into chunks.",
+        "Assemble bowls: romaine, sweet potato fries, burger pieces, tomatoes, onion, cheese, pickles.",
+        "Mix burger sauce and drizzle over the top."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 91,
+      "name": "Chicken & Veggie Sheet Pan",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 400, "protein_g": 44, "carbs_g": 24, "fat_g": 14 },
+      "ingredients": [
+        "2 lbs (900g) bone-in chicken thighs or breast",
+        "2 cups broccoli florets",
+        "1 cup halved Brussels sprouts",
+        "1 cup baby potatoes, halved",
+        "1 red onion, cut into wedges",
+        "3 tbsp olive oil",
+        "4 garlic cloves, minced",
+        "1 lemon, sliced",
+        "1 tsp dried rosemary",
+        "1 tsp dried thyme",
+        "1 tsp smoked paprika",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat oven to 425F (220C). Line a large baking sheet.",
+        "Toss all vegetables with 2 tbsp olive oil, salt, and pepper.",
+        "Rub chicken with remaining oil, garlic, rosemary, thyme, paprika, salt, and pepper.",
+        "Arrange chicken in the center of the baking sheet, vegetables around it.",
+        "Place lemon slices on top.",
+        "Roast 35-40 min until chicken reaches 165F and vegetables are caramelized.",
+        "Serve directly from the pan."
+      ],
+      "storage": "Fridge 4 days"
+    },
+    {
+      "id": 92,
+      "name": "High-Protein Oatmeal",
+      "category": "Breakfast",
+      "servings": 1,
+      "macros_per_serving": { "calories": 450, "protein_g": 36, "carbs_g": 56, "fat_g": 8 },
+      "ingredients": [
+        "1/2 cup rolled oats",
+        "1 cup milk or water",
+        "1 scoop (30g) vanilla protein powder",
+        "1/2 banana, sliced",
+        "1 tbsp almond butter or peanut butter",
+        "1 tbsp chia seeds or flax seeds",
+        "1 tsp cinnamon",
+        "1 tsp honey"
+      ],
+      "instructions": [
+        "Bring milk to a gentle boil. Add oats and reduce heat.",
+        "Stir and cook 4-5 min until oats are creamy and milk is absorbed.",
+        "Remove from heat. Stir in protein powder quickly until smooth.",
+        "Stir in chia seeds and cinnamon.",
+        "Top with sliced banana, peanut butter, and a drizzle of honey."
+      ],
+      "storage": "Best eaten fresh, can refrigerate 2 days"
+    },
+    {
+      "id": 93,
+      "name": "Shredded Chicken Meal Prep Base",
+      "category": "Lunch/Dinner",
+      "servings": 6,
+      "macros_per_serving": { "calories": 210, "protein_g": 42, "carbs_g": 0, "fat_g": 4 },
+      "ingredients": [
+        "3 lbs (1.3kg) boneless skinless chicken breast",
+        "1 cup low-sodium chicken broth",
+        "4 garlic cloves, smashed",
+        "1 tsp salt",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "1 tsp Italian seasoning or any seasoning blend",
+        "Black pepper to taste"
+      ],
+      "instructions": [
+        "Place chicken breasts in a large pot or Dutch oven.",
+        "Add broth, garlic cloves, and all seasonings.",
+        "Cover and bring to a simmer over medium heat.",
+        "Cook 18-22 min until chicken is fully cooked through (165F).",
+        "Remove chicken and let cool 5 min.",
+        "Shred with two forks or use a hand mixer on low speed.",
+        "Use in any recipe calling for cooked shredded chicken, or portion as a protein base for bowls all week."
+      ],
+      "storage": "Fridge 4 days / Freezer 3 months"
+    },
+    {
+      "id": 94,
+      "name": "Honey Sriracha Salmon",
+      "category": "Dinner",
+      "servings": 4,
+      "macros_per_serving": { "calories": 400, "protein_g": 40, "carbs_g": 14, "fat_g": 20 },
+      "ingredients": [
+        "4 x 6oz salmon fillets",
+        "3 tbsp honey",
+        "2 tbsp sriracha",
+        "2 tbsp low-sodium soy sauce",
+        "2 garlic cloves, minced",
+        "1 tsp rice vinegar",
+        "1 tbsp avocado oil",
+        "Sesame seeds and green onions to garnish",
+        "Steamed rice and vegetables for serving"
+      ],
+      "instructions": [
+        "Mix honey, sriracha, soy sauce, garlic, and rice vinegar into a glaze.",
+        "Pat salmon dry. Brush generously with the glaze.",
+        "Heat oil in an oven-safe skillet over medium-high. Sear salmon 2-3 min per side.",
+        "Brush again with glaze. Transfer skillet to 400F oven and bake 5-8 min until cooked to desired doneness.",
+        "Garnish with sesame seeds and green onions.",
+        "Serve over rice with steamed broccoli or bok choy."
+      ],
+      "storage": "Fridge 3 days"
+    },
+    {
+      "id": 95,
+      "name": "Canned Tuna & Veggie Stir Fry",
+      "category": "Lunch/Dinner",
+      "servings": 2,
+      "macros_per_serving": { "calories": 330, "protein_g": 36, "carbs_g": 28, "fat_g": 8 },
+      "ingredients": [
+        "2 cans (5oz each) albacore tuna in water, drained",
+        "2 cups broccoli florets",
+        "1 cup snap peas",
+        "1 cup shredded carrots",
+        "2 cups cooked jasmine rice",
+        "2 tbsp soy sauce",
+        "1 tbsp sesame oil",
+        "1 tsp sriracha",
+        "2 garlic cloves, minced",
+        "1 tsp ginger",
+        "1 tbsp avocado oil"
+      ],
+      "instructions": [
+        "Heat oil in a wok or skillet over high heat.",
+        "Stir fry broccoli, snap peas, and carrots 4-5 min until tender-crisp.",
+        "Add garlic and ginger 30 sec.",
+        "Add tuna and gently fold in. Pour soy sauce, sesame oil, and sriracha over everything.",
+        "Toss gently 1-2 min. Serve over rice."
+      ],
+      "storage": "Fridge 2 days"
+    },
+    {
+      "id": 96,
+      "name": "Zucchini & Turkey Egg Scramble",
+      "category": "Breakfast",
+      "servings": 2,
+      "macros_per_serving": { "calories": 340, "protein_g": 38, "carbs_g": 10, "fat_g": 16 },
+      "ingredients": [
+        "4 large eggs",
+        "1/2 cup liquid egg whites",
+        "1/2 lb (225g) lean ground turkey",
+        "1 medium zucchini, diced",
+        "1/2 cup diced cherry tomatoes",
+        "1/4 cup diced onion",
+        "2 garlic cloves, minced",
+        "1/4 cup shredded cheese",
+        "1 tbsp avocado oil",
+        "Salt, pepper, Italian seasoning to taste"
+      ],
+      "instructions": [
+        "Heat oil in a skillet over medium-high. Cook turkey until browned, season with Italian seasoning.",
+        "Add onion, garlic, and zucchini. Cook 3-4 min until softened.",
+        "Add cherry tomatoes and cook 1-2 min.",
+        "Whisk eggs and egg whites with salt and pepper. Pour over the turkey-veggie mix.",
+        "Scramble gently until eggs are cooked through.",
+        "Top with shredded cheese and cover 1 min to melt."
+      ],
+      "storage": "Fridge 3 days"
+    },
+    {
+      "id": 97,
+      "name": "Chicken & Broccoli Casserole",
+      "category": "Dinner",
+      "servings": 6,
+      "macros_per_serving": { "calories": 420, "protein_g": 44, "carbs_g": 26, "fat_g": 14 },
+      "ingredients": [
+        "2 lbs (900g) cooked chicken breast, shredded",
+        "4 cups broccoli florets, steamed until just tender",
+        "1 cup brown rice, cooked",
+        "1 can (10.5oz) condensed cream of chicken soup (low sodium)",
+        "1/2 cup plain Greek yogurt",
+        "1/2 cup low-sodium chicken broth",
+        "1 cup shredded cheddar cheese, divided",
+        "1 tsp garlic powder",
+        "1 tsp onion powder",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Preheat oven to 375F (190C). Spray a 9x13 baking dish.",
+        "Mix cream of chicken soup, Greek yogurt, broth, garlic powder, onion powder, salt, and pepper.",
+        "Combine shredded chicken, broccoli, and cooked rice in the baking dish.",
+        "Pour soup mixture over everything and stir to coat.",
+        "Top with 3/4 of the shredded cheese.",
+        "Cover and bake 25 min. Uncover, add remaining cheese, bake 10 more min until bubbly."
+      ],
+      "storage": "Fridge 4 days / Freezer 2 months"
+    },
+    {
+      "id": 98,
+      "name": "Protein Bar (Homemade No-Bake)",
+      "category": "Snack",
+      "servings": 8,
+      "macros_per_serving": { "calories": 240, "protein_g": 18, "carbs_g": 22, "fat_g": 9 },
+      "ingredients": [
+        "2 cups rolled oats",
+        "3 scoops (90g) chocolate or vanilla protein powder",
+        "1 cup natural peanut butter",
+        "1/3 cup honey",
+        "1/4 cup mini chocolate chips",
+        "2 tbsp ground flax seeds",
+        "1 tsp vanilla extract",
+        "Pinch of salt",
+        "3-4 tbsp milk to bind if needed"
+      ],
+      "instructions": [
+        "Line an 8x8 baking pan with parchment paper.",
+        "Mix all ingredients together in a large bowl until a firm dough forms. Add milk one tbsp at a time if too dry.",
+        "Press the mixture evenly into the pan.",
+        "Refrigerate at least 1 hour until firm.",
+        "Cut into 8 bars.",
+        "Wrap each bar individually in parchment or foil."
+      ],
+      "storage": "Fridge 1 week / Freezer 3 months"
+    },
+    {
+      "id": 99,
+      "name": "Poached Egg & Avocado Grain Bowl",
+      "category": "Breakfast",
+      "servings": 2,
+      "macros_per_serving": { "calories": 430, "protein_g": 26, "carbs_g": 42, "fat_g": 18 },
+      "ingredients": [
+        "4 large eggs, poached",
+        "1 cup cooked farro, quinoa, or brown rice",
+        "1 avocado, sliced",
+        "1 cup cherry tomatoes, halved",
+        "2 cups baby arugula or spinach",
+        "2 tbsp olive oil",
+        "1 tbsp lemon juice",
+        "1 tsp Dijon mustard",
+        "1 garlic clove, minced",
+        "Salt and pepper to taste",
+        "Red pepper flakes optional"
+      ],
+      "instructions": [
+        "Make quick dressing: whisk olive oil, lemon juice, Dijon, garlic, salt, and pepper.",
+        "Toss arugula with half the dressing.",
+        "Build bowls: dressed arugula, warm grain, cherry tomatoes, and avocado.",
+        "Poach eggs: bring water to a gentle simmer, add a splash of vinegar. Crack each egg into a small cup and slide gently into water. Cook 3-4 min until whites are set.",
+        "Place 2 poached eggs on each bowl.",
+        "Drizzle remaining dressing over everything. Add red pepper flakes."
+      ],
+      "storage": "Best eaten fresh. Grain and veggies fridge 4 days."
+    },
+    {
+      "id": 100,
+      "name": "Slow Cooker Chicken & Sweet Potato Stew",
+      "category": "Dinner",
+      "servings": 6,
+      "macros_per_serving": { "calories": 390, "protein_g": 40, "carbs_g": 34, "fat_g": 9 },
+      "ingredients": [
+        "2 lbs (900g) boneless skinless chicken thighs",
+        "2 large sweet potatoes, peeled and cubed",
+        "1 can (14.5oz) diced tomatoes",
+        "1 can (15oz) chickpeas, drained",
+        "1 large onion, diced",
+        "4 garlic cloves, minced",
+        "2 cups low-sodium chicken broth",
+        "2 tbsp tomato paste",
+        "1 tsp cumin",
+        "1 tsp smoked paprika",
+        "1/2 tsp turmeric",
+        "1/2 tsp cinnamon",
+        "2 cups baby spinach",
+        "Salt and pepper to taste",
+        "Fresh parsley for garnish"
+      ],
+      "instructions": [
+        "Add chicken thighs, sweet potatoes, diced tomatoes, chickpeas, onion, and garlic to a slow cooker.",
+        "Mix broth with tomato paste, cumin, paprika, turmeric, cinnamon, salt, and pepper. Pour over everything.",
+        "Cook on LOW 6-8 hours or HIGH 3-4 hours until chicken is tender.",
+        "Remove chicken, shred with two forks, return to slow cooker.",
+        "Stir in baby spinach until wilted.",
+        "Adjust seasoning. Garnish with fresh parsley."
+      ],
+      "storage": "Fridge 5 days / Freezer 3 months"
+    }
+  ]
+}
