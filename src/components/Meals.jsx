@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useLocalStorage } from '../hooks/useLocalStorage'
 import { MEAL_PLAN, MEAL_LABELS } from '../data/meals'
-import { GROCERY_DATA, CATEGORY_LABELS, GROCERY_NOTE, getGroceryForWeek } from '../data/grocery'
+import { CATEGORY_LABELS, GROCERY_NOTE, getGroceryForWeek } from '../data/grocery'
 import { MEAL_LIBRARY, MEALS_EXTRA } from '../data/meals_extra'
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
@@ -18,8 +18,109 @@ const LABEL_COLORS = {
   dinner:    'bg-orange-500/20 text-orange-400 border-orange-500/30',
 }
 
+// Filter MEAL_LIBRARY by meal type
+function libraryForType(type) {
+  return MEAL_LIBRARY.filter(r => {
+    const cat = r.category.toLowerCase()
+    if (type === 'breakfast') return cat.includes('breakfast')
+    if (type === 'lunch')     return cat.includes('lunch')
+    if (type === 'snack')     return cat.includes('snack')
+    if (type === 'dinner')    return cat.includes('dinner')
+    return false
+  })
+}
+
+// Convert a MEAL_LIBRARY recipe into the shape MealCard expects for `meal`
+function recipeToMeal(r) {
+  return {
+    name: r.name,
+    protein: r.protein,
+    flavor: r.instructions[0] || '',
+    ingredients: r.ingredients.slice(0, 6).map(s =>
+      s.replace(/^[\d\/\.\s]+(lbs?|oz|g|cups?|tbsp?|tsps?|cans?|x\s*\d+oz)?\s*/i, '')
+       .split(',')[0].trim().slice(0, 30)
+    ),
+    substitute: `${r.servings} servings · ${r.storage}`
+  }
+}
+
+// ─── Replace Meal Modal ───────────────────────────────────────────────────────
+function ReplaceMealModal({ mealType, onSelect, onClose }) {
+  const [search, setSearch] = useState('')
+  const options = libraryForType(mealType).filter(r =>
+    !search || r.name.toLowerCase().includes(search.toLowerCase())
+  )
+
+  return (
+    <div className="fixed inset-0 z-50 flex flex-col justify-end bg-black/70" onClick={onClose}>
+      <div
+        className="bg-gray-950 rounded-t-2xl border-t border-gray-800 flex flex-col"
+        style={{ maxHeight: '82vh' }}
+        onClick={e => e.stopPropagation()}
+      >
+        {/* Header */}
+        <div className="flex items-center justify-between px-4 pt-4 pb-3 border-b border-gray-800 shrink-0">
+          <div>
+            <p className="display-font text-lg font-black text-white">REPLACE MEAL</p>
+            <p className="text-gray-500 text-xs capitalize">{mealType} alternatives · {options.length} options</p>
+          </div>
+          <button onClick={onClose} className="w-9 h-9 rounded-xl bg-gray-800 border border-gray-700 flex items-center justify-center">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 text-gray-400">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+
+        {/* Search */}
+        <div className="px-4 py-3 shrink-0">
+          <input
+            type="text"
+            placeholder={`Search ${mealType} recipes…`}
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+            autoFocus
+            className="w-full bg-gray-900 border border-gray-700 rounded-xl px-4 py-2.5 text-white text-sm focus:outline-none focus:border-purple-500 placeholder-gray-600"
+          />
+        </div>
+
+        {/* Recipe list */}
+        <div className="overflow-y-auto flex-1 px-4 pb-8">
+          {options.map(r => {
+            const totalPrice = r.ingredients_priced.reduce((s, i) => s + i.price, 0)
+            return (
+              <button
+                key={r.id}
+                onClick={() => { onSelect(r.id); onClose() }}
+                className="w-full text-left bg-gray-900 border border-gray-800 rounded-xl px-4 py-3 mb-2 hover:border-purple-500/50 transition-colors"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div className="flex-1 min-w-0">
+                    <p className="text-white font-bold text-sm leading-tight mb-1">{r.name}</p>
+                    <div className="flex flex-wrap gap-2 text-xs text-gray-500">
+                      <span>⏱ {r.cookTime}</span>
+                      <span>🔥 {r.calories} kcal</span>
+                      <span>💪 {r.protein}g protein</span>
+                      <span>~${totalPrice.toFixed(0)}/srv</span>
+                    </div>
+                  </div>
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4 text-gray-600 shrink-0 mt-1">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                  </svg>
+                </div>
+              </button>
+            )
+          })}
+          {options.length === 0 && (
+            <p className="text-gray-600 text-sm text-center py-8">No {mealType} recipes match that search.</p>
+          )}
+        </div>
+      </div>
+    </div>
+  )
+}
+
 // ─── MealCard ─────────────────────────────────────────────────────────────────
-function MealCard({ type, meal, extra }) {
+function MealCard({ type, meal, extra, isReplaced, onReplace, onRestore }) {
   const [expanded, setExpanded] = useState(false)
   const [mode, setMode] = useState('fresh')
 
@@ -27,7 +128,17 @@ function MealCard({ type, meal, extra }) {
   const totalPrice = (extra?.ingredients_priced || []).reduce((s, i) => s + i.price, 0)
 
   return (
-    <div className="card mb-3">
+    <div className={`card mb-3 ${isReplaced ? 'border-purple-500/30' : ''}`}>
+      {/* Replaced badge */}
+      {isReplaced && (
+        <div className="flex items-center gap-1.5 mb-2">
+          <span className="text-xs text-purple-400 font-semibold bg-purple-500/10 border border-purple-500/20 px-2 py-0.5 rounded-full">
+            ✦ Custom replacement
+          </span>
+        </div>
+      )}
+
+      {/* Tappable header */}
       <button className="w-full text-left" onClick={() => setExpanded(v => !v)}>
         <div className="flex items-start justify-between mb-2">
           <span className={`pill border text-xs font-bold ${LABEL_COLORS[type]}`}>
@@ -57,6 +168,7 @@ function MealCard({ type, meal, extra }) {
         </div>
       </button>
 
+      {/* Expanded content */}
       {expanded && (
         <div className="mt-3 pt-3 border-t border-gray-800">
           {(meal.marinade || meal.sauce || meal.spices) && (
@@ -123,13 +235,34 @@ function MealCard({ type, meal, extra }) {
             </>
           )}
 
-          {meal.substitute && (
+          {meal.substitute && !isReplaced && (
             <div className="mt-3 p-3 bg-gray-800/50 rounded-xl border border-gray-700/50">
               <p className="text-gray-300 text-xs">🔄 <span className="font-semibold text-gray-200">Substitute:</span> {meal.substitute}</p>
             </div>
           )}
         </div>
       )}
+
+      {/* Replace / Restore buttons — always visible */}
+      <div className={`flex gap-2 mt-3 ${expanded ? '' : 'pt-3 border-t border-gray-800'}`}>
+        <button
+          onClick={onReplace}
+          className="flex-1 py-2 rounded-xl text-xs font-semibold bg-gray-800 text-gray-300 border border-gray-700 hover:border-purple-500/50 transition-colors flex items-center justify-center gap-1.5"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5">
+            <path strokeLinecap="round" strokeLinejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+          </svg>
+          Replace Meal
+        </button>
+        {isReplaced && (
+          <button
+            onClick={onRestore}
+            className="px-3 py-2 rounded-xl text-xs font-semibold bg-gray-900 text-gray-500 border border-gray-800 hover:text-gray-300 transition-colors"
+          >
+            ↩ Restore
+          </button>
+        )}
+      </div>
     </div>
   )
 }
@@ -139,13 +272,30 @@ function MealPlanTab({ startDate }) {
   const currentWeek = getCurrentWeek(startDate)
   const [month, setMonth] = useState(currentWeek <= 4 ? 1 : 2)
   const [selectedWeek, setSelectedWeek] = useState(currentWeek)
+  const [replacements, setReplacements] = useLocalStorage('fittrack_meal_replacements', {})
+  const [replaceModal, setReplaceModal] = useState(null) // meal type string or null
+
+  const rKey = type => `${selectedWeek}_${type}`
+
+  const getReplacedRecipe = type => {
+    const id = replacements[rKey(type)]
+    return id ? MEAL_LIBRARY.find(r => r.id === id) : null
+  }
+
+  const handleSelect = (type, recipeId) => {
+    setReplacements(prev => ({ ...prev, [rKey(type)]: recipeId }))
+  }
+
+  const handleRestore = type => {
+    setReplacements(prev => { const n = { ...prev }; delete n[rKey(type)]; return n })
+  }
 
   const weeksForMonth = month === 1 ? [1, 2, 3, 4] : [5, 6, 7, 8]
   const meals = MEAL_PLAN[selectedWeek]
   const extra = MEALS_EXTRA[selectedWeek] || {}
 
   return (
-    <div>
+    <>
       <div className="flex gap-2 mb-4">
         {[1, 2].map(m => (
           <button key={m}
@@ -166,7 +316,8 @@ function MealPlanTab({ startDate }) {
         ))}
       </div>
 
-      <div className="rounded-xl px-4 py-3 mb-4 border border-purple-500/20" style={{ background: 'linear-gradient(135deg,rgba(83,74,183,0.15),rgba(107,99,201,0.1))' }}>
+      <div className="rounded-xl px-4 py-3 mb-4 border border-purple-500/20"
+        style={{ background: 'linear-gradient(135deg,rgba(83,74,183,0.15),rgba(107,99,201,0.1))' }}>
         <div className="flex items-center gap-2 mb-1">
           <p className="text-purple-300 text-xs font-semibold uppercase tracking-wider">Week {selectedWeek} Theme</p>
           {selectedWeek === currentWeek && <span className="text-yellow-400 text-xs font-bold">● Current week</span>}
@@ -177,10 +328,31 @@ function MealPlanTab({ startDate }) {
         </p>
       </div>
 
-      {meals && ['breakfast', 'lunch', 'snack', 'dinner'].map(type => (
-        <MealCard key={type} type={type} meal={meals[type]} extra={extra[type]} />
-      ))}
-    </div>
+      {meals && ['breakfast', 'lunch', 'snack', 'dinner'].map(type => {
+        const replaced = getReplacedRecipe(type)
+        const meal = replaced ? recipeToMeal(replaced) : meals[type]
+        const extraData = replaced ? replaced : extra[type]
+        return (
+          <MealCard
+            key={type}
+            type={type}
+            meal={meal}
+            extra={extraData}
+            isReplaced={!!replaced}
+            onReplace={() => setReplaceModal(type)}
+            onRestore={() => handleRestore(type)}
+          />
+        )
+      })}
+
+      {replaceModal && (
+        <ReplaceMealModal
+          mealType={replaceModal}
+          onSelect={recipeId => handleSelect(replaceModal, recipeId)}
+          onClose={() => setReplaceModal(null)}
+        />
+      )}
+    </>
   )
 }
 
@@ -191,7 +363,6 @@ function LibraryCard({ recipe }) {
 
   const modeData = mode === 'batch' ? recipe.batchPrep : recipe.freshCook
   const totalPrice = recipe.ingredients_priced.reduce((s, i) => s + i.price, 0)
-
   const catColor =
     recipe.category.includes('Breakfast') ? 'bg-yellow-500/20 text-yellow-400 border-yellow-500/30' :
     recipe.category.includes('Snack')     ? 'bg-blue-500/20 text-blue-400 border-blue-500/30' :
@@ -244,7 +415,6 @@ function LibraryCard({ recipe }) {
               </div>
             </div>
           </div>
-
           <div className="flex gap-2 mb-3">
             <button onClick={() => setMode('fresh')}
               className={`flex-1 py-2.5 rounded-xl text-sm font-semibold transition-all ${mode === 'fresh' ? 'bg-purple-600 text-white' : 'bg-gray-900 text-gray-400 border border-gray-800'}`}>
@@ -255,7 +425,6 @@ function LibraryCard({ recipe }) {
               🥡 Batch Prep
             </button>
           </div>
-
           {modeData && (
             <div className={`rounded-xl p-4 border ${mode === 'batch' ? 'bg-green-500/5 border-green-500/20' : 'bg-purple-500/5 border-purple-500/20'}`}>
               <p className="font-bold text-white text-sm mb-1">{modeData.name}</p>
@@ -295,13 +464,8 @@ function LibraryTab() {
 
   return (
     <div>
-      <input
-        type="text"
-        placeholder="Search recipes…"
-        value={search}
-        onChange={e => setSearch(e.target.value)}
-        className="w-full bg-gray-900 border border-gray-700 rounded-xl px-4 py-3 text-white text-sm mb-3 focus:outline-none focus:border-purple-500 placeholder-gray-600"
-      />
+      <input type="text" placeholder="Search recipes…" value={search} onChange={e => setSearch(e.target.value)}
+        className="w-full bg-gray-900 border border-gray-700 rounded-xl px-4 py-3 text-white text-sm mb-3 focus:outline-none focus:border-purple-500 placeholder-gray-600" />
       <div className="flex gap-2 overflow-x-auto scrollbar-hide pb-2 mb-3">
         {LIB_CATS.map(cat => (
           <button key={cat} onClick={() => setFilter(cat)}
