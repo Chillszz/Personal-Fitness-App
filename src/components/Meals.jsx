@@ -11,6 +11,25 @@ function getCurrentWeek(startDate) {
   return Math.min(8, Math.max(1, Math.floor(days / 7) + 1))
 }
 
+function getWeekStart(startDate, weekNum) {
+  if (!startDate) return ''
+  const start = new Date(startDate)
+  const weekStart = new Date(start)
+  weekStart.setDate(start.getDate() + (weekNum - 1) * 7)
+  return weekStart.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+}
+
+function getWeekDateRange(startDate, weekNum) {
+  if (!startDate) return ''
+  const start = new Date(startDate)
+  const weekStart = new Date(start)
+  weekStart.setDate(start.getDate() + (weekNum - 1) * 7)
+  const weekEnd = new Date(weekStart)
+  weekEnd.setDate(weekStart.getDate() + 6)
+  const fmt = d => d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+  return `${fmt(weekStart)} – ${fmt(weekEnd)}`
+}
+
 const LABEL_COLORS = {
   breakfast: 'bg-yellow-500/20 text-yellow-400 border-yellow-500/30',
   lunch:     'bg-green-500/20 text-green-400 border-green-500/30',
@@ -309,18 +328,22 @@ function MealPlanTab({ startDate }) {
       <div className="flex gap-2 mb-4 overflow-x-auto scrollbar-hide pb-1">
         {weeksForMonth.map(w => (
           <button key={w} onClick={() => setSelectedWeek(w)}
-            className={`shrink-0 px-4 py-2 rounded-full text-sm font-semibold transition-all ${selectedWeek === w ? 'bg-purple-600 text-white' : 'bg-gray-900 text-gray-400 border border-gray-800'}`}>
-            Week {w}
-            {w === currentWeek && <span className="ml-1.5 inline-block w-1.5 h-1.5 rounded-full bg-yellow-400 align-middle" />}
+            className={`shrink-0 flex flex-col items-center px-3 py-2 rounded-xl text-sm font-semibold transition-all ${selectedWeek === w ? 'bg-purple-600 text-white' : 'bg-gray-900 text-gray-400 border border-gray-800'}`}>
+            <span className="flex items-center gap-1">
+              Wk {w}
+              {w === currentWeek && <span className="inline-block w-1.5 h-1.5 rounded-full bg-yellow-400" />}
+            </span>
+            <span className={`text-xs font-normal mt-0.5 ${selectedWeek === w ? 'text-purple-200' : 'text-gray-600'}`}>{getWeekStart(startDate, w)}</span>
           </button>
         ))}
       </div>
 
       <div className="rounded-xl px-4 py-3 mb-4 border border-purple-500/20"
         style={{ background: 'linear-gradient(135deg,rgba(83,74,183,0.15),rgba(107,99,201,0.1))' }}>
-        <div className="flex items-center gap-2 mb-1">
-          <p className="text-purple-300 text-xs font-semibold uppercase tracking-wider">Week {selectedWeek} Theme</p>
-          {selectedWeek === currentWeek && <span className="text-yellow-400 text-xs font-bold">● Current week</span>}
+        <div className="flex items-center gap-2 mb-1 flex-wrap">
+          <p className="text-purple-300 text-xs font-semibold uppercase tracking-wider">Week {selectedWeek}</p>
+          {startDate && <p className="text-purple-400/60 text-xs">{getWeekDateRange(startDate, selectedWeek)}</p>}
+          {selectedWeek === currentWeek && <span className="text-yellow-400 text-xs font-bold">● Now</span>}
         </div>
         <p className="text-white font-bold">{meals?.theme}</p>
         <p className="text-purple-300 text-xs mt-1">

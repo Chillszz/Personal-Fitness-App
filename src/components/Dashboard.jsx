@@ -11,6 +11,20 @@ function getWeekNumber(startDate) {
   return Math.min(8, Math.max(1, Math.floor(diffDays / 7) + 1))
 }
 
+function getWeekDateRange(startDate, weekNum) {
+  const start = new Date(startDate)
+  const weekStart = new Date(start)
+  weekStart.setDate(start.getDate() + (weekNum - 1) * 7)
+  const weekEnd = new Date(weekStart)
+  weekEnd.setDate(weekStart.getDate() + 6)
+  const fmt = d => d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+  return `${fmt(weekStart)} – ${fmt(weekEnd)}`
+}
+
+function isPlanStarted(startDate) {
+  return new Date(startDate) <= new Date()
+}
+
 function getTodayKey() {
   return new Date().toISOString().split('T')[0]
 }
@@ -67,6 +81,9 @@ export default function Dashboard({ profile, startDate, workoutSchedule, onOpenS
   const streak = getStreakCount(checklist)
   const currentWeight = weightLog.length > 0 ? weightLog[weightLog.length - 1].weight : profile.startWeight
   const weightDelta = currentWeight - profile.startWeight
+  const planStarted = isPlanStarted(startDate)
+  const weekDateRange = getWeekDateRange(startDate, currentWeek)
+  const planStartFormatted = new Date(startDate).toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' })
 
   const completedToday = Object.values(todayChecklist).filter(Boolean).length
   const totalItems = CHECKLIST_ITEMS.length
@@ -122,12 +139,26 @@ export default function Dashboard({ profile, startDate, workoutSchedule, onOpenS
         </button>
       </div>
 
+      {/* Plan start banner */}
+      {!planStarted && (
+        <div className="px-4 mb-4">
+          <div className="bg-yellow-500/10 border border-yellow-500/30 rounded-xl p-3 flex items-center gap-3">
+            <span className="text-2xl">📅</span>
+            <div>
+              <p className="text-yellow-300 text-sm font-semibold">Plan hasn't started yet</p>
+              <p className="text-yellow-400/70 text-xs">Kicks off {planStartFormatted}</p>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Hero card */}
       <div className="px-4 mb-4">
         <div className="rounded-2xl p-4 relative overflow-hidden" style={{ background: 'linear-gradient(135deg, #1e1b4b, #312e81)' }}>
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-purple-300 text-xs font-semibold uppercase tracking-wider mb-1">Week {currentWeek} of 8</p>
+              <p className="text-purple-300 text-xs font-semibold uppercase tracking-wider mb-0.5">Week {currentWeek} of 8</p>
+              <p className="text-purple-400/70 text-xs mb-1">{weekDateRange}</p>
               <h2 className="display-font text-2xl font-black text-white">{MEAL_PLAN[currentWeek]?.theme?.toUpperCase()}</h2>
               <div className="flex items-center gap-2 mt-2">
                 <span className={`px-2 py-0.5 rounded-full text-xs font-semibold ${isWorkoutDay ? 'bg-purple-500 text-white' : 'bg-gray-700 text-gray-300'}`}>

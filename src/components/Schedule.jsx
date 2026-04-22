@@ -11,6 +11,8 @@ const WORKOUT_NAMES = {
   lowerB: 'Lower B'
 }
 
+const DAY_OFFSETS = { Monday: 0, Tuesday: 1, Wednesday: 2, Thursday: 3, Friday: 4, Saturday: 5, Sunday: 6 }
+
 function getWeekNumber(startDate) {
   try {
     const start = new Date(startDate)
@@ -19,6 +21,20 @@ function getWeekNumber(startDate) {
     return Math.min(8, Math.max(1, Math.floor(diffDays / 7) + 1))
   } catch {
     return 1
+  }
+}
+
+function getDayCalendarDate(startDate, weekNum, dayName) {
+  try {
+    const start = new Date(startDate)
+    const weekStart = new Date(start)
+    weekStart.setDate(start.getDate() + (weekNum - 1) * 7)
+    const offset = DAY_OFFSETS[dayName] ?? 0
+    const dayDate = new Date(weekStart)
+    dayDate.setDate(weekStart.getDate() + offset)
+    return dayDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+  } catch {
+    return ''
   }
 }
 
@@ -176,7 +192,8 @@ export default function Schedule({ startDate, profile, workoutSchedule }) {
         {/* Week view grid */}
         {view === 'week' && (
           <div className="card mb-4">
-            <p className="display-font text-base font-bold text-gray-300 mb-3">WEEK {weekNum} OVERVIEW</p>
+            <p className="display-font text-base font-bold text-gray-300">WEEK {weekNum} OVERVIEW</p>
+            {startDate && <p className="text-gray-500 text-xs mb-3">{getDayCalendarDate(startDate, weekNum, 'Monday')} – {getDayCalendarDate(startDate, weekNum, 'Sunday')}</p>}
             <WeeklyGrid workoutSchedule={ws} />
             <div className="mt-3 flex flex-wrap gap-3">
               {[['🍳', 'Meals'], ['🏋️', 'Workout'], ['💼', 'Work'], ['🚶', 'Walk'], ['😴', 'Sleep']].map(([emoji, label]) => (
@@ -191,7 +208,12 @@ export default function Schedule({ startDate, profile, workoutSchedule }) {
 
         {/* Day header */}
         <div className="flex items-center justify-between mb-3">
-          <h2 className="display-font text-xl font-bold text-gray-300">{selectedDay.toUpperCase()}</h2>
+          <div>
+            <h2 className="display-font text-xl font-bold text-gray-300">{selectedDay.toUpperCase()}</h2>
+            {startDate && (
+              <p className="text-gray-500 text-xs mt-0.5">{getDayCalendarDate(startDate, weekNum, selectedDay)}</p>
+            )}
+          </div>
           <span className={`px-3 py-1 rounded-full text-xs font-bold ${
             isWorkoutDay ? 'bg-purple-500/20 text-purple-400' : 'bg-gray-800 text-gray-500'
           }`}>
