@@ -579,8 +579,8 @@ export default function Meals({ startDate }) {
   const [activeTab, setActiveTab] = useState('plan')
 
   return (
-    <div className="flex flex-col h-full overflow-y-auto scrollbar-thin scrollbar-hide bg-gray-950">
-      <div className="px-4 pt-14 pb-24">
+    <div className="h-full overflow-y-auto scrollbar-thin scrollbar-hide bg-gray-950">
+      <div className="px-4 pt-14 pb-32">
         <h1 className="display-font text-3xl font-black text-white mb-4">MEALS</h1>
         <div className="flex bg-gray-900 rounded-xl p-1 mb-4 border border-gray-800">
           {[['plan', 'Meal Plan'], ['library', 'Library'], ['grocery', 'Grocery']].map(([id, label]) => (
