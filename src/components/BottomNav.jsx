@@ -53,7 +53,7 @@ export default function BottomNav({ activeTab, onTabChange }) {
   return (
     <nav className="w-full bg-gray-950 border-t border-gray-800 shrink-0"
          style={{ paddingBottom: 'env(safe-area-inset-bottom, 16px)' }}>
-      <div className="flex items-center justify-around h-[90px]">
+      <div className="flex items-center justify-around h-[110px]">
         {TABS.map(tab => {
           const isActive = activeTab === tab.id
           return (
