@@ -52,15 +52,15 @@ const TABS = [
 export default function BottomNav({ activeTab, onTabChange }) {
   return (
     <nav className="w-full bg-gray-950 border-t border-gray-800 shrink-0"
-         style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
-      <div className="flex items-center justify-around h-16">
+         style={{ paddingBottom: 'env(safe-area-inset-bottom, 16px)' }}>
+      <div className="flex items-center justify-around h-20">
         {TABS.map(tab => {
           const isActive = activeTab === tab.id
           return (
             <button
               key={tab.id}
               onClick={() => onTabChange(tab.id)}
-              className={`flex flex-col items-center justify-center flex-1 h-full gap-0.5 transition-colors ${
+              className={`relative flex flex-col items-center justify-center flex-1 h-full gap-1 transition-colors ${
                 isActive ? 'text-purple-400' : 'text-gray-600'
               }`}
             >
@@ -69,7 +69,7 @@ export default function BottomNav({ activeTab, onTabChange }) {
                 {tab.label}
               </span>
               {isActive && (
-                <span className="absolute bottom-0 w-6 h-0.5 bg-purple-400 rounded-full" />
+                <span className="absolute top-0 left-1/2 -translate-x-1/2 w-6 h-0.5 bg-purple-400 rounded-full" />
               )}
             </button>
           )

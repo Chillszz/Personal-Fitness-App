@@ -111,7 +111,7 @@ export default function Progress({ profile, startDate }) {
 
   return (
     <div className="flex flex-col h-full overflow-y-auto scrollbar-thin scrollbar-hide bg-gray-950">
-      <div className="px-4 pt-14 pb-4">
+      <div className="px-4 pt-14 pb-36">
         <h1 className="display-font text-3xl font-black text-white mb-2">PROGRESS</h1>
 
         {/* Summary cards */}

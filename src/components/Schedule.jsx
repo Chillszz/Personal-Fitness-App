@@ -145,7 +145,7 @@ export default function Schedule({ startDate, profile, workoutSchedule }) {
 
   return (
     <div className="h-full overflow-y-auto scrollbar-thin bg-gray-950">
-      <div className="px-4 pt-14 pb-24">
+      <div className="px-4 pt-14 pb-36">
         <h1 className="display-font text-3xl font-black text-white mb-4">SCHEDULE</h1>
 
         {/* View toggle */}

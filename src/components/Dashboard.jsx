@@ -278,7 +278,7 @@ export default function Dashboard({ profile, startDate, workoutSchedule, onOpenS
       </div>
 
       {/* Bottom padding for nav */}
-      <div className="h-4" />
+      <div className="h-36" />
     </div>
   )
 }
